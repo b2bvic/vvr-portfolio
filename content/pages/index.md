@@ -14,12 +14,11 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+      Architect of Digital Systems & Scalable Growth
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      I don't just consult or manage projects; I architect and implement the comprehensive digital systems that drive scalable growth and establish market leadership. By integrating deep expertise in technical SEO, process automation, and content strategy, I solve complex business challenges with clear, systematic solutions.
+
+      This is a selection of my work and thinking. It's designed not just to show what I've done, but to demonstrate a methodology that creates dominant, resilient, and profitable online presences.
     styles:
       self:
         height: auto
@@ -64,7 +63,7 @@ sections:
           - pl-4
           - pr-4
         textAlign: left
-    subtitle: Projects
+    subtitle: Featured Projects
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
@@ -95,7 +94,8 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: "Let's Build Something Formidable."
+    subtitle: "Have a complex challenge that requires a systematic solution? I'm interested in partnering on ambitious projects that aim for market leadership. Let's discuss the blueprint for your success."
     form:
       type: FormBlock
       elementId: sign-up-form
@@ -121,19 +121,19 @@ sections:
           isRequired: true
           width: 1/2
           type: EmailFormControl
-        - name: address
-          label: Address
+        - name: project
+          label: Project Details
           hideLabel: true
-          placeholder: Address
+          placeholder: Tell me about your project...
           isRequired: true
-          width: 1/2
-          type: TextFormControl
+          width: full
+          type: TextareaFormControl
         - name: updatesConsent
-          label: Sign me up to recieve updates
+          label: Sign me up for strategic updates
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: "Initiate Contact"
       styles:
         self:
           textAlign: center

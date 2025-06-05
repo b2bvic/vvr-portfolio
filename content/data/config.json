@@ -1,42 +1,45 @@
 {
     "type": "Config",
     "favicon": "/images/favicon.svg",
+    "titleSuffix": "Victor Valentine Romo",
+            "defaultSocialImage": "/images/victor-social-image.jpg",
+        "baseUrl": "https://victorvalentineromo.com",
     "header": {
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "Victor Valentine Romo",
         "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
+                "label": "About",
                 "url": "/info"
             },
             {
                 "type": "Link",
-                "label": "Projects",
+                "label": "Experience",
                 "url": "/projects"
             },
             {
                 "type": "Link",
-                "label": "Blog",
+                "label": "Articles",
                 "url": "/blog"
             }
         ],
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
+                "altText": "SEO for Executives",
+                "label": "SEO for Executives",
+                "url": "https://seoforexecutives.com/",
                 "icon": "twitter"
             },
             {
                 "type": "Social",
                 "altText": "GitHub",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
+                "url": "https://github.com/vvr",
                 "icon": "github"
             }
         ],
@@ -51,40 +54,38 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
+                "label": "About",
                 "url": "/info",
                 "altText": ""
             },
             {
                 "type": "Link",
                 "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
+                "url": "mailto:victor@seoforexecutives.com",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "Blog",
+                "label": "Articles",
                 "url": "/blog",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
+                "label": "SEO for Executives",
+                "url": "https://seoforexecutives.com/",
+                "altText": "Main SEO Blog"
             }
         ],
         "contacts": {
             "type": "ContactBlock",
-            "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
+            "title": "Get in touch",
+            "email": "victor@seoforexecutives.com",
+            "emailAltText": "Email Victor",
+            "address": "Available for consulting worldwide",
+            "addressAltText": "Consulting availability"
         },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+        "copyrightText": "© 2025 Victor Valentine Romo. Connecting the dots between search and the web since 2013.",
         "styles": {
             "self": {
                 "width": "narrow",

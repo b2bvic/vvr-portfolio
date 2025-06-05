@@ -1,6 +1,6 @@
 ---
 type: ProjectFeedLayout
-title: Projects
+title: Professional Experience
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
@@ -27,8 +27,8 @@ projectFeed:
         - pb-12
 topSections:
   - type: HeroSection
-    title: Projects
-    subtitle: ''
+    title: Professional Experience
+    subtitle: 'Systematic SEO excellence across agencies and consultancies'
     actions: []
     colors: colors-f
     backgroundSize: full

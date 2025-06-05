@@ -4,7 +4,7 @@ title: About
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg4.jpg
+  url: /images/bg2.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
@@ -13,344 +13,201 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: >+
-      # Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+    title: >-
+      Architect of Digital Systems & Scalable Growth
+    subtitle: >-
+      I don't build websites. I architect the systematic digital infrastructures that drive market dominance and establish unshakeable competitive advantages.
 
-    media:
-      type: ImageBlock
-      url: /images/about.jpg
-      altText: Hero image
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-16
-          - pb-12
-          - pl-4
-          - pr-4
-        textAlign: left
-    type: HeroSection
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        borderWidth: 1
-        borderStyle: solid
-  - type: MediaGallerySection
-    colors: colors-f
-    subtitle: 'I worked with these folks:'
-    images:
-      - type: ImageBlock
-        url: /images/logo1.svg
-        altText: Logo one
-        caption: Logo one
-      - type: ImageBlock
-        url: /images/logo2.svg
-        altText: Logo two
-        caption: Logo two
-      - type: ImageBlock
-        url: /images/logo3.svg
-        altText: Logo three
-        caption: Logo three
-      - type: ImageBlock
-        url: /images/logo4.svg
-        altText: Logo four
-        caption: Logo four
-      - type: ImageBlock
-        url: /images/logo5.svg
-        altText: Logo five
-        caption: Logo five
-    spacing: 3
-    columns: 5
-    aspectRatio: auto
-    showCaption: false
-    enableHover: false
-    styles:
-      self:
-        width: wide
-        height: auto
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        textAlign: left
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        borderWidth: 1
-        borderStyle: solid
-  - type: FeaturedItemsSection
-    subtitle: 'You can find me here:'
-    colors: colors-f
-    items:
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: GitHub
-            url: 'https://github.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Twitter
-            url: 'https://twitter.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: LinkedIn
-            url: 'https://www.linkedin.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Discord
-            url: 'https://discord.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/'
-        styles:
-          self:
-            textAlign: left
-    columns: 3
-    spacingX: 120
-    spacingY: 16
+
+      Since 2013, I've been connecting the dots between search and the web, developing the frameworks that enable businesses to systematically outmaneuver their competitors and win in dynamic digital landscapes.
     styles:
       self:
         height: auto
         width: wide
         padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        borderWidth: 1
-        borderStyle: solid
-  - type: LabelsSection
-    colors: colors-f
-    subtitle: 'Skills:'
-    items:
-      - type: Label
-        label: 'WEB 1, 2, 3'
-      - type: Label
-        label: React
-      - type: Label
-        label: Microsoft Office
-      - type: Label
-        label: Next.js
-      - type: Label
-        label: Netlify
-      - type: Label
-        label: Pancakes
-      - type: Label
-        label: C++
-      - type: Label
-        label: Swift
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        borderWidth: 1
-        borderStyle: solid
-  - type: TextSection
-    variant: variant-a
-    subtitle: 'Contact:'
-    colors: colors-f
-    text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        borderWidth: 1
-        borderStyle: solid
-  - type: FeaturedItemsSection
-    colors: colors-f
-    items:
-      - type: FeaturedItem
-        subtitle: 'Experience:'
-        text: |-
-          **Current**
-
-          * freelance @freelance.me
-
-          **2018-2021**
-
-          * fullstack at this startup
-
-          **2015**
-
-          * senior front-end at this place
-
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        subtitle: 'Education:'
-        text: |-
-          **2015-2018**
-
-          * ba computer sciense at a semi fancy school
-
-          **2014**
-
-          * react certificate somewhere
-
-          **2011**
-
-          * my highschool
-        styles:
-          self:
-            textAlign: left
-    columns: 2
-    spacingX: 60
-    spacingY: 60
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        textAlign: left
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        borderWidth: 1
-        borderStyle: solid
-  - type: ContactSection
-    backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
-    colors: colors-f
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Tell me about your project
-          isRequired: true
-          width: full
-          type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        self:
-          textAlign: center
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
-        padding:
-          - pt-12
-          - pb-12
+          - pt-36
+          - pb-48
           - pr-4
           - pl-4
         flexDirection: row
         textAlign: left
+    type: HeroSection
+  - elementId: ''
+    colors: colors-f
+    variant: variant-a
+    subtitle: >-
+      ## My Background
+
+
+      **The Unconventional Path**
+
+
+      Most SEO consultants stumbled into search optimization through marketing or web development. I arrived through music composition, systems engineering, and an unrelenting curiosity about how complex systems create emergent behavior.
+
+
+      I spent my early twenties as a classical musician—trombone and piano—studying the structural principles that make harmonic progressions work. The same systematic thinking that creates compelling musical narratives turns out to be exactly what's needed to architect content strategies that drive systematic business growth.
+
+
+      **From Music to Systems**
+
+
+      The transition from music to SEO wasn't random. Both disciplines require understanding how individual components interact to create effects that couldn't emerge from any single element. In music, it's how melody, harmony, rhythm, and dynamics combine to create emotional experiences. In SEO, it's how technical implementation, content architecture, and user experience combine to create market dominance.
+
+
+      This background gives me a perspective that pure marketing specialists don't have: I see SEO as a systems engineering problem, not a marketing tactic.
+
+
+      **Building and Scaling Marketing Departments**
+
+
+      Over the past decade, I've founded and led three marketing departments, each achieving eight-figure revenue milestones. This isn't about implementing someone else's strategy—it's about building the systematic approaches that enable sustainable, compound growth.
+
+
+      At Grey Matter, I managed SEO strategies for 147 clients over 18 months, personally auditing and executing 250,000+ line items of technical and on-page optimization. The key wasn't working harder—it was developing systematic approaches that could scale without breaking.
+
+
+      As COO and Co-Founder of [FOUND](http://foundwithseo.com/), I drove a 2,700% increase in annual revenue between 2023 and 2024 by personally securing 90% of clients obtained. This wasn't sales technique—it was systematic positioning that made the right choices obvious for potential clients.
+
+
+      **The Autodidact's Advantage**
+
+
+      I'm what people call a "rapid autodidact"—someone who systematically acquires expertise across seemingly unrelated domains to create solutions that specialists in any single field can't conceive of.
+
+
+      Current competencies span:
+      - **Technical SEO and Systems Architecture:** Discovery → Crawl → Index → Render → Rank
+      - **AI and Process Automation:** Leveraging LLMs to 3x output without sacrificing quality
+      - **Content Strategy and Information Architecture:** Creating topical authority that compounds over time
+      - **Multimedia Production:** Trained 40+ professionals in advanced video and livestream production
+      - **Music and Composition:** Proficient in 10 instruments, classical training in performance and instruction
+      - **Operations and SOP Development:** Standard Operating Procedures that enable systematic scaling
+
+
+      **The Teaching Instinct**
+
+
+      Whether I'm teaching piano to children, training college students in SEO, or developing SOPs for marketing teams, I consistently find satisfaction in creating systematic approaches that enable others to achieve in months what took me years to learn.
+
+
+      This isn't altruism—it's selfish. Teaching forces me to articulate the systematic principles behind what works, which deepens my own understanding and reveals optimization opportunities I wouldn't see otherwise.
+
+
+      ## My Approach
+
+
+      **Systems Thinking Over Tactics**
+
+
+      Most SEO consultants focus on tactics: keyword research, technical audits, content creation, link building. I focus on the systematic integration of these elements to create compound effects that amplify over time.
+
+
+      The difference isn't visible in month one. It's visible in month six when your traffic growth is accelerating while your competitors are hitting plateaus.
+
+
+      **The D→C→I→R→R Framework**
+
+
+      My systematic approach follows the same methodology for every engagement:
+
+
+      **Discovery:** Understanding your business model, competitive landscape, and systematic constraints
+      **Crawl:** Technical architecture audit and optimization for systematic growth
+      **Index:** Content strategy and information architecture for topical authority
+      **Render:** User experience optimization for conversion and engagement
+      **Rank:** Ongoing optimization and systematic improvement based on performance data
+
+
+      This isn't a linear process—it's an iterative system that creates compound improvements over time.
+
+
+      **Methodology Over Magic**
+
+
+      I don't believe in SEO magic or secret techniques. I believe in systematic approaches that create predictable results through disciplined execution.
+
+
+      Every recommendation I make can be defended with data, tested systematically, and measured for impact. If I can't explain why something works in clear, non-technical terms, I don't recommend it.
+
+
+      ## Current Focus: Scale With Search
+
+
+      Through [Scale With Search](https://seoforexecutives.com/), I work with a select number of businesses that understand the strategic value of systematic SEO implementation.
+
+
+      I don't take on clients who want quick fixes or tactical implementations. I work with organizations that recognize SEO as the systematic foundation for sustainable competitive advantage.
+
+
+      **Who I Work With:**
+      - B2B SaaS companies seeking market leadership in competitive niches
+      - E-commerce brands building systematic content authority
+      - Professional services firms establishing thought leadership
+      - Technology companies requiring technical SEO at enterprise scale
+
+
+      **What Sets This Apart:**
+      Unlike agencies that manage dozens of clients with templated approaches, I focus on systematic, bespoke implementations for businesses that understand the compound value of getting SEO architecture right from the foundation.
+
+
+      ## Personal Philosophy
+
+
+      **Freedom Through Systematic Excellence**
+
+
+      I'm not motivated by speaking at conferences or being front-and-center in the industry. I'm motivated by the freedom that comes from building systematic solutions that create sustainable value.
+
+
+      My goal is simple: develop the systematic approaches that enable me to work three to four hours a day on challenging problems, then retreat to my farm in central North Carolina to focus on family and long-term thinking.
+
+
+      **Unrelenting Effort, Systematic Results**
+
+
+      I believe in matching energy and intensity. If you can't match the level of tenacity and drive being put at the table, you should resign your seat.
+
+
+      This isn't about working more hours—it's about systematic approaches that create compound results through disciplined execution.
+
+
+      **The Long View**
+
+
+      I'm building for the long term. Every client engagement, every systematic approach, every piece of content I create is designed to compound value over time rather than provide short-term optimization.
+
+
+      This perspective enables solutions that create sustainable competitive advantages rather than temporary improvements.
+
+
+      ## Let's Work Together
+
+
+      If you're building something significant and need systematic SEO architecture that compounds value over time rather than provides temporary improvements, let's talk.
+
+
+      I work with businesses that understand the strategic importance of getting digital foundations right from the beginning, not companies looking for quick fixes to tactical problems.
+
+
+      **What We'll Discuss:**
+      - Your systematic growth constraints and opportunities
+      - The technical and content architecture needed for sustainable competitive advantage  
+      - Implementation timelines that prioritize systematic excellence over speed
+      - How systematic SEO integration amplifies your existing business strengths
+
+
+      I have limited availability for new systematic implementations, but if you're building something that requires the kind of interdisciplinary, systems-thinking approach I bring to complex challenges, I'd be interested in learning more about your specific situation.
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-12
+          - pb-56
+          - pr-4
+          - pl-4
+        textAlign: left
+    type: TextSection
+metaTitle: About Victor Valentine Romo - SEO Systems Architect
+metaDescription: Learn about Victor Valentine Romo's systematic approach to SEO and digital systems architecture. From music composition to enterprise SEO implementation.
 ---
