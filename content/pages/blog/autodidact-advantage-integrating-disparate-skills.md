@@ -9,8 +9,8 @@ featuredImage:
   type: ImageBlock
   url: /images/autodidact-advantage.jpg
   altText: Network diagram showing interconnected knowledge domains
-metaTitle: 'The Autodidact's Advantage in Problem Solving - Victor Valentine Romo'
-metaDescription: 'How integrating knowledge from disparate fields creates unique solutions to complex business and technical challenges.'
+metaTitle: "The Autodidact's Advantage in Problem Solving - Victor Valentine Romo"
+metaDescription: "How integrating knowledge from disparate fields creates unique solutions to complex business and technical challenges."
 bottomSections:
   - elementId: ''
     type: RecentPostsSection

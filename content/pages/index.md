@@ -50,9 +50,9 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/projects/project-two.md
-      - content/pages/projects/project-three.md
-      - content/pages/projects/project-one.md
+      - content/pages/projects/grey-matter-147-clients-250k-seo-optimizations.md
+      - content/pages/projects/scale-with-search-systematic-seo-solutions.md
+      - content/pages/projects/found-coo-2700-percent-revenue-growth.md
     styles:
       self:
         height: auto
@@ -75,9 +75,9 @@ sections:
         label: See all posts
         url: /blog
     posts:
-      - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
+      - content/pages/blog/architecting-for-scale-nextjs-projects.md
+      - content/pages/blog/autodidact-advantage-integrating-disparate-skills.md
+      - content/pages/blog/technical-seo-audit-framework-350k-case-study.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
@@ -133,7 +133,7 @@ sections:
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Initiate Contact"
+      submitLabel: 'Initiate Contact'
       styles:
         self:
           textAlign: center
