@@ -1,4 +1,3 @@
-import { allModels } from '.stackbit/models';
 import * as types from '@/types';
 import { PAGE_MODEL_NAMES, PageModelType } from '@/types/generated';
 import frontmatter from 'front-matter';
@@ -10,17 +9,17 @@ import { isDev } from './common';
 const contentBaseDir = 'content';
 const pagesBaseDir = contentBaseDir + '/pages';
 
-const allReferenceFields = {};
-allModels.forEach((model) => {
-    model.fields.forEach((field) => {
-        if (field.type === 'reference' || (field.type === 'list' && field.items?.type === 'reference')) {
-            allReferenceFields[model.name + ':' + field.name] = true;
-        }
-    });
-});
+// Common reference fields for our content types
+const knownReferenceFields = {
+  'PageLayout:sections': true,
+  'FeaturedProjectsSection:projects': true,
+  'FeaturedPostsSection:posts': true,
+  'PostLayout:author': true,
+  'ProjectLayout:client': true,
+};
 
 function isRefField(modelName: string, fieldName: string) {
-    return !!allReferenceFields[modelName + ':' + fieldName];
+    return !!knownReferenceFields[modelName + ':' + fieldName];
 }
 
 const supportedFileTypes = ['md', 'json'];

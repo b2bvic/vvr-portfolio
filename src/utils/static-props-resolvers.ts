@@ -1,5 +1,7 @@
-import { ConfigModel } from '.stackbit/models/Config';
-import { ThemeStyleModel } from '.stackbit/models/ThemeStyle';
+// Simplified model names - no longer using stackbit models
+const ConfigModel = { name: 'Config' };
+const ThemeStyleModel = { name: 'ThemeStyle' };
+
 import {
     Config,
     ContentObject,
