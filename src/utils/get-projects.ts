@@ -12,14 +12,13 @@ export function getAllProjects() {
       return {
         slug: project.__metadata?.urlPath?.replace('/projects/', '') || '',
         title: projectData.title || 'Untitled',
-        date: projectData.date || new Date().toISOString(),
         excerpt: projectData.excerpt || '',
-        client: projectData.client || '',
-        description: projectData.markdownContent || '',
-        featuredImage: projectData.featuredImage || null
+        content: projectData.markdownContent || '',
+        featuredImage: projectData.featuredImage || null,
+        liveUrl: projectData.liveUrl || null
       }
     })
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .sort((a, b) => a.title.localeCompare(b.title))
   
   return projects
 }

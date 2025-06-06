@@ -1,21 +1,39 @@
-import classNames from 'classnames';
-import dayjs from 'dayjs';
 import Markdown from 'markdown-to-jsx';
 import * as React from 'react';
 
-import { Annotated } from '@/components/Annotated';
-import Link from '@/components/atoms/Link';
 import { DynamicComponent } from '@/components/components-registry';
-import ImageBlock from '@/components/molecules/ImageBlock';
 import { PageComponentProps, ProjectLayout } from '@/types';
 import HighlightedPreBlock from '@/utils/highlighted-markdown';
-import BaseLayout from '../BaseLayout';
 
 type ComponentProps = PageComponentProps &
     ProjectLayout & {
         prevProject?: ProjectLayout;
         nextProject?: ProjectLayout;
     };
+
+function ArrowLeftIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" {...props}>
+      <path
+        d="M7.25 11.25 3.75 8m0 0 3.5-3.25M3.75 8h8.5"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
+function LinkIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <path
+        d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l1.06-1.06a.75.75 0 0 0-1.06-1.06l-1.06 1.06Zm-4.95 4.95a.75.75 0 0 0 1.06 0l1.06-1.06a.75.75 0 0 0-1.06-1.06l-1.06 1.06a.75.75 0 0 0 0 1.06Zm-2.475-1.414a.75.75 0 0 0-1.06-1.06l-1.06 1.06a.75.75 0 0 0 1.06 1.06l1.06-1.06Zm4.95-4.95a.75.75 0 0 0 1.06 1.06l1.06-1.06a.75.75 0 0 0-1.06-1.06l-1.06 1.06Z"
+      />
+      <path d="M13.83 9.17a.75.75 0 0 0-1.06 1.06l1.06 1.06a.75.75 0 0 0 1.06-1.06l-1.06-1.06Z" />
+    </svg>
+  )
+}
 
 const Component: React.FC<ComponentProps> = (props) => {
     const {
@@ -29,58 +47,72 @@ const Component: React.FC<ComponentProps> = (props) => {
         nextProject,
         bottomSections = []
     } = props;
-    const dateTimeAttr = dayjs(date).format('YYYY-MM-DD HH:mm:ss');
-    const formattedDate = dayjs(date).format('YYYY-MM-DD');
+    const router = useRouter();
 
     return (
-        <BaseLayout {...props}>
-            <article className="px-4 py-14 lg:py-20">
-                <header className="max-w-5xl mx-auto mb-10 sm:mb-14">
-                    {client && <div className="text-lg uppercase md:mb-6">{client}</div>}
-                    <div className="flex flex-col gap-6 md:flex-row md:justify-between">
-                        <time className="text-lg md:order-last" dateTime={dateTimeAttr}>
-                            {formattedDate}
-                        </time>
-                        <h1 className="text-5xl sm:text-6xl md:max-w-2xl md:grow">{title}</h1>
+        <Layout>
+            <Head>
+                <title>{title} - Victor Valentine Romo</title>
+                <meta name="description" content={description || props.excerpt} />
+            </Head>
+            <Container className="mt-16 lg:mt-32">
+                <div className="xl:relative">
+                    <div className="mx-auto max-w-2xl">
+                        <button
+                            type="button"
+                            onClick={() => router.back()}
+                            aria-label="Go back to projects"
+                            className="group mb-8 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 dark:ring-white/10 dark:hover:border-zinc-700 dark:hover:ring-white/20 lg:absolute lg:-left-5 lg:mb-0 lg:-mt-2 xl:-top-1.5 xl:left-0 xl:mt-0"
+                        >
+                            <ArrowLeftIcon className="h-4 w-4 stroke-zinc-500 transition group-hover:stroke-zinc-700 dark:stroke-zinc-500 dark:group-hover:stroke-zinc-400" />
+                        </button>
+                        <article>
+                            <header className="flex flex-col">
+                                <h1 className="mt-6 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                                    {title}
+                                </h1>
+                                {description && (
+                                    <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                                        {description}
+                                    </p>
+                                )}
+                                {client && (
+                                    <div className="mt-6">
+                                        <p className="text-sm font-medium text-zinc-800 dark:text-zinc-200">
+                                            Client: {client}
+                                        </p>
+                                    </div>
+                                )}
+                            </header>
+                            
+                            {media && (
+                                <div className="mt-8">
+                                    <ProjectMedia media={media} />
+                                </div>
+                            )}
+                            
+                            {markdownContent && (
+                                <Markdown
+                                    options={{ forceBlock: true, overrides: { pre: HighlightedPreBlock } }}
+                                    className="mt-8 prose dark:prose-invert"
+                                >
+                                    {markdownContent}
+                                </Markdown>
+                            )}
+                        </article>
                     </div>
-                </header>
-                {description && (
-                    <div className="max-w-3xl mx-auto mb-10 text-lg uppercase sm:text-xl sm:mb-14">{description}</div>
-                )}
-                {media && (
-                    <figure className="max-w-5xl mx-auto mb-10 sm:mb-14">
-                        <ProjectMedia media={media} />
-                    </figure>
-                )}
-                {markdownContent && (
-                    <Markdown
-                        options={{ forceBlock: true, overrides: { pre: HighlightedPreBlock } }}
-                        className="max-w-3xl mx-auto prose sm:prose-lg"
-                    >
-                        {markdownContent}
-                    </Markdown>
-                )}
-            </article>
-            {(prevProject || nextProject) && (
-                <nav className="px-4 mt-12 mb-20">
-                    <div className="grid max-w-5xl mx-auto gap-x-6 gap-y-12 sm:grid-cols-2 lg:gap-x-8">
-                        {prevProject && <ProjectNavItem project={prevProject} className={undefined} />}
-                        {nextProject && (
-                            <ProjectNavItem project={nextProject} className="sm:items-end sm:col-start-2" />
-                        )}
-                    </div>
-                </nav>
-            )}
+                </div>
+            </Container>
             {bottomSections?.map((section, index) => {
                 return <DynamicComponent key={index} {...section} />;
             })}
-        </BaseLayout>
+        </Layout>
     );
 };
 export default Component;
 
 function ProjectMedia({ media }) {
-    return <DynamicComponent {...media} className={classNames({ 'w-full': media.type === 'ImageBlock' })} />;
+    return <DynamicComponent {...media} className="aspect-video w-full rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800" />;
 }
 
 function ProjectNavItem({ project, className }) {

@@ -71,9 +71,9 @@ const components = {
     TextFormControl: dynamic(() => import('./molecules/FormBlock/TextFormControl')),
     TextSection: dynamic(() => import('./sections/TextSection')),
     VideoBlock: dynamic(() => import('./molecules/VideoBlock')),
-    PageLayout: dynamic(() => import('./layouts/PageLayout')),
-    PostLayout: dynamic(() => import('./layouts/PostLayout')),
-    PostFeedLayout: dynamic(() => import('./layouts/PostFeedLayout')),
-    ProjectLayout: dynamic(() => import('./layouts/ProjectLayout')),
-    ProjectFeedLayout: dynamic(() => import('./layouts/ProjectFeedLayout'))
+    PageLayout: dynamic(() => import('./spotlight/AboutLayout').then(m => ({ default: m.AboutLayout }))),
+    PostLayout: dynamic(() => import('./spotlight/BlogLayout').then(m => ({ default: m.BlogLayout }))),
+    PostFeedLayout: dynamic(() => import('./spotlight/BlogIndex').then(m => ({ default: m.BlogIndex }))),
+    ProjectLayout: dynamic(() => import('./spotlight/ProjectLayout').then(m => ({ default: m.ProjectLayout }))),
+    ProjectFeedLayout: dynamic(() => import('./spotlight/ProjectIndex').then(m => ({ default: m.ProjectIndex })))
 };

@@ -213,9 +213,21 @@ function SpotlightHomepage({ posts }: { posts: any[] }) {
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Architect of Digital Systems & Scalable Growth
-          </h1>
+          <div className="flex items-center gap-x-6">
+            <img
+              src="/images/avatar.jpg"
+              alt="Victor Valentine Romo"
+              className="h-16 w-16 rounded-full object-cover"
+            />
+            <div>
+              <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                Victor Valentine Romo
+              </h1>
+              <p className="text-lg text-zinc-600 dark:text-zinc-400">
+                Architect of Digital Systems & Scalable Growth
+              </p>
+            </div>
+          </div>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I don&apos;t just consult or manage projects; I architect and implement the comprehensive digital systems that drive scalable growth and establish market leadership. By integrating deep expertise in technical SEO, process automation, and content strategy, I solve complex business challenges with clear, systematic solutions.
           </p>
