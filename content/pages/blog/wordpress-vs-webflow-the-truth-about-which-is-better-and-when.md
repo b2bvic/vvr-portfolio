@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'WordPress vs. Webflow - The Truth About Which Is Better, And When'
+title: "WordPress vs. Webflow - The Truth About Which Is Better, And When"
 colors: colors-a
-date: '2023-02-10'
+date: "2023-02-10"
 excerpt: >-
   ---...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'WordPress vs. Webflow - The Truth About Which Is Better, And When'
-metaDescription: '---...'
+metaTitle: "WordPress vs. Webflow - The Truth About Which Is Better, And When"
+metaDescription: "---..."
 ---
-
 ---
 title: "WordPress vs Webflow: The Truth About Which Is Better, And When"
 date: 2021-11-28

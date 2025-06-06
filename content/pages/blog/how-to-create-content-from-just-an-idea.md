@@ -1,30 +1,26 @@
 ---
 type: PostLayout
-title: 'How To Create Content From Just An Idea'
+title: "How To Create Content From Just An Idea"
 colors: colors-a
-date: '2023-11-18'
+date: "2023-11-18"
 excerpt: >-
   ## It All Begins With Research...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'How To Create Content From Just An Idea'
-metaDescription: '## It All Begins With Research...'
+metaTitle: "How To Create Content From Just An Idea"
+metaDescription: "## It All Begins With Research..."
 ---
-
 ## It All Begins With Research
 
 To begin creating any piece of content (whether for yourself or a third party), it has to begin with **research.**
-
 You want to make sure that whatever you’re going to be spending your time on is going to actually be relevant to today’s trends, topics, interests, SOMETHING, or you’re going to be dead in the water before you begin.
 
 People tend to get into a bit of **‘paralysis by analysis’** when it comes to these things, but I’ll keep it as simple as possible:
 
 **Any** _idea, fleeting thought, discovered wisdom, personal anecdote, self-realization, self-motivation, koan, lesson, or parable,_ can be turned into a piece of content. **That content could take the form of writing, visual, video, or even a podcast.**
-
 **Once you’ve come up with something that interests you, it’s time to make sure it will interest others.**
-
 ## Trends Are Your Friend
 
 Luckily for you, the internet has many options for those who search. Search Engines track the ‘relevancy’ and connected-ness of different **_keywords_**, by becoming familiar with what others are searching, you’re increasing the chances that **your** content is going to be consumed.
@@ -38,7 +34,6 @@ This is especially true if you’re looking for content creation ideas, say for 
 I’m not saying go out and spam all the latest gossip on your profiles, especially if you’re running one for a business.
 
 But you SHOULD be aware of the latest gossip / news / updates that are happening in the **social circles** of your **intended audience.**
-
 By studying the rankings and competition of different search terms, you can gain an understanding of multiple angles: the audience and their questions, the competition and their responses, and any gaps / grievances in between that you can fill in with **your** content.
 
 [**SerpStat**](https://serpstat.com/) is a bit more useful if you’re writing for a content-based website and need to see what the **Search Engine Optimization** is like on **Keywords** and **Phrases**.
@@ -75,7 +70,6 @@ Is there an emotional impact or reaction? Even IF you have a purpose and want to
 They won’t purchase your product, they won’t sign up to your email list, they won’t want you to solve the problem (which is the entire purpose, remember?) they won’t be **compelled** to.
 
 Humans are emotional animals, sometimes you need to find their pain point and dig your finger into it... **and _twist_.**
-
 If it’s a problem they care enough about, they will make the next move, which is typically, a **purchase**.
 
 ## Humans Love a Good Story
@@ -87,7 +81,6 @@ Don’t tell people what they’ll get with a purchase, or what they’ll get by
 Tell them how their life will be changed with a purchase, or give them all the Dog Facts a person can handle.
 
 You’ve heard it time and time again, never sell the **features**, _ALWAYS_ sell the **benefits.**
-
 This goes beyond content that is a lead-in generation for customers.
 
 If you just want to reach more people but aren’t sure how to communicate to them, the value you can provide, start with what will change with them when they begin to interact with you.

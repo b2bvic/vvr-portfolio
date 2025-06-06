@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'STEAL this content'
+title: "STEAL this content"
 colors: colors-a
-date: '2023-06-05'
+date: "2023-06-05"
 excerpt: >-
   https://roberto.digital/newsletter/issues/...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'STEAL this content'
-metaDescription: 'https://roberto.digital/newsletter/issues/...'
+metaTitle: "STEAL this content"
+metaDescription: "https://roberto.digital/newsletter/issues/..."
 ---
-
 https://roberto.digital/newsletter/issues/
 https://app.katlinks.io/tips
 https://docs.google.com/document/d/1somLwqWcHqLjM3CEmfLG_cJZGBQx0KdmlcJLJPanVxQ/edit

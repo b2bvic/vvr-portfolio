@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'Your feelings about your emotions are stupid'
+title: "Your feelings about your emotions are stupid"
 colors: colors-a
-date: '2024-03-25'
+date: "2024-03-25"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Your feelings about your emotions are stupid'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "Your feelings about your emotions are stupid"
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 There’s an amount of time between your reaction to a situation, and your reaction to your reaction.
@@ -22,7 +21,6 @@ If you don’t know what I mean, I’ll explain.
 Growing up, I was taught that you should always take the environment at face value. You do this to become familiar with your surroundings on the off-chance that _something_ happens that will be outside of your control.
 
 **That’s just the nature of reality.**
-
 In order to mitigate this, take in as much information about your environment (internal & external) as possible **WITHOUT** allowing yourself to get ‘caught up’ in your **FEELINGS** about it.
 
 I use this example all the time:
@@ -40,7 +38,6 @@ But then, most times, there’s a second response:
 3.  _Situation festers in your mind & is dragged throughout the day_
 
 **Why is that though?**
-
 Why is it so appealing for people to carry with them the reactions that already-adequately served their purpose?
 
 You felt the emotion, yes? Then why are you still holding it?

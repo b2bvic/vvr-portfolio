@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'A lesson in beginning'
+title: "A lesson in beginning"
 colors: colors-a
-date: '2023-10-17'
+date: "2023-10-17"
 excerpt: >-
   ## I am writing this because I was inspired to begin....
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'A lesson in beginning'
-metaDescription: '## I am writing this because I was inspired to begin....'
+metaTitle: "A lesson in beginning"
+metaDescription: "## I am writing this because I was inspired to begin...."
 ---
-
 ## I am writing this because I was inspired to begin.
 
 Now, what's so special about starting, you might ask?

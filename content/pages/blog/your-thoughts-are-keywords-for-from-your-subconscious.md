@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'Your Thoughts Are Keywords For & From Your Subconscious'
+title: "Your Thoughts Are Keywords For & From Your Subconscious"
 colors: colors-a
-date: '2023-02-25'
+date: "2023-02-25"
 excerpt: >-
   Your thoughts operate as keywords do....
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Your Thoughts Are Keywords For & From Your Subconscious'
-metaDescription: 'Your thoughts operate as keywords do....'
+metaTitle: "Your Thoughts Are Keywords For & From Your Subconscious"
+metaDescription: "Your thoughts operate as keywords do...."
 ---
-
 Your thoughts operate as keywords do.
 
 Consciously, this can come to you as ideas, emotions, or dreams.
@@ -58,7 +57,6 @@ It may seem daunting and scary, but that’s the world we live in.
 I hope this information empowers you to use these devices with a bit more intention and care.
 
 **Especially for the sake of your unsupervised children’s internet access.**
-
 Thank you for reading,
 
 VIC.

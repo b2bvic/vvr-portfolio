@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'How To Be Successful At Failure'
+title: "How To Be Successful At Failure"
 colors: colors-a
-date: '2023-02-27'
+date: "2023-02-27"
 excerpt: >-
   Failing at something sucks. It doesn't feel good....
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'How To Be Successful At Failure'
-metaDescription: 'Failing at something sucks. It doesn't feel good....'
+metaTitle: "How To Be Successful At Failure"
+metaDescription: "Failing at something sucks. It doesn't feel good...."
 ---
-
 Failing at something sucks. It doesn't feel good.
 
 So naturally, we attempt to avoid it. 
@@ -26,8 +25,6 @@ You'll just never give yourself the opportunity to increase your aptitude.
 You robbing from you. 
 
 What does it mean to fail?
-
-  
 
 ## The Nature Of Failure
 
@@ -53,8 +50,6 @@ Never fear failure. Fear the day you stop looking for new ways to fail.
 
 It won't be too long from that day where you'll meet your demise.
 
-  
-
 ## Success Is Not The Absence Of Failure
 
 When you accept the fact that success is not the absence of failure, you begin to take each failure to heart, less.
@@ -76,8 +71,6 @@ When you learn to become jaded to this sort of conflict within yourself, you unl
 It's all a numbers game. You put in the amount of reps required to be comfortable with the risk of failure.
 
 And don't forget, failure is an ever-present temptation. That's what it means to make an attempt.
-
-  
 
 ## If Going Forward Is Not An Option, Go Back
 

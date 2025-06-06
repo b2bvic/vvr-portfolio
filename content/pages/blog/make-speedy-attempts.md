@@ -1,21 +1,18 @@
 ---
 type: PostLayout
-title: 'Make Speedy Attempts'
+title: "Make Speedy Attempts"
 colors: colors-a
-date: '2024-05-14'
+date: "2024-05-14"
 excerpt: >-
   The dumbest, absolutely worst first attempt you make at doing something immediately is almost always better than the slightly better attempt you'll ma...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Make Speedy Attempts'
-metaDescription: 'The dumbest, absolutely worst first attempt you make at doing something immediately is almost always better than the slightly better attempt you'll ma...'
+metaTitle: "Make Speedy Attempts"
+metaDescription: "The dumbest, absolutely worst first attempt you make at doing something immediately is almost always better than the slightly better attempt you'll ma..."
 ---
-
 The dumbest, absolutely worst first attempt you make at doing something immediately is almost always better than the slightly better attempt you'll make after weeks/months/years of "preparation"
-
-  
 
 This is a hard lesson for most.
 

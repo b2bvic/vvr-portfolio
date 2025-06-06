@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'An Analysis on the Exchange of Ideas in History & Modernity'
+title: "An Analysis on the Exchange of Ideas in History & Modernity"
 colors: colors-a
-date: '2024-01-03'
+date: "2024-01-03"
 excerpt: >-
   #### _Anonymity throughout history meant nothing more than simply not sharing your name, or wearing a mask._...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'An Analysis on the Exchange of Ideas in History & Modernity'
-metaDescription: '#### _Anonymity throughout history meant nothing more than simply not sharing your name, or wearing a mask._...'
+metaTitle: "An Analysis on the Exchange of Ideas in History & Modernity"
+metaDescription: "#### _Anonymity throughout history meant nothing more than simply not sharing your name, or wearing a mask._..."
 ---
-
 #### _Anonymity throughout history meant nothing more than simply not sharing your name, or wearing a mask._
 
 The sharing of ideas in public forums, both in ancient times and the modern era, have done nothing but serve the forward-moving mentalities which are the cause of moral development, cultural appreciation, and lively debate.
@@ -42,7 +41,6 @@ The argument could be made that without this degree of caution, there would be l
 Even though these authors chose to separate their ideas from their identity, effectively relinquishing any possibility of associating those same “dangerous” thoughts with their personal lives, this would become a strategy used well into the future, for good reason.
 
 **_The separation of ideas from identity can be argued as a net positive or negative for society._**
-
 On one hand, it prevents the threat of persecution for the simple action of _sharing_ these ideas, on the other hand, many use anonymity as a tool for spreading hate speech, defamation, and threats of violence, because it is understood that they are not likely to be held responsible for their words in a public forum.
 
 This is the double-edged sword in those who prefer to remain anonymous in modern culture.
@@ -54,10 +52,7 @@ At which point, all online communication is ‘scored’ against a scale determi
 > _As once stated by Richard Sanders, “Those who would give up essential liberty to purchase a little temporary safety, deserve neither liberty nor safety.”_
 
 **_To the opposition who may claim that privacy is not important to them in their use of online communication, I offer a simple rebuttal: the modern strategy ubiquitously known as “Doxxing.”_**
-
-  
-
-## Cancel Culture In Modernity  
+## Cancel Culture In Modernity
 
 > _'Doxxing' is a term defining the release of personal information of anyone who uses the internet._
 
@@ -68,14 +63,13 @@ This action has become more popular in modern times due to the implementation of
 This can mean not supporting their work, attempts to get them fired, or repeated actions of harassment online or in the real-world.
 
 **_Couple this with ‘doxxing,’ and we’re reaching unprecedented danger for anyone who shares thoughts that others may take offense to, not want to recognize, or refuse to consider themselves part of a larger problem as a whole._**
-
 Entire lives have been ruined for the plain and simple fact that many do not consider their place in the world, automatically seething with rage at those who attempt to move society forward in a progressive manner. It is akin to blaming the mirror for the reflection seen within it.
 
 This fallacious approach to recognition will only serve to degrade societal standards for discourse & debate, increasing exponentially in the coming years.
 
 ‍
 
-## Anonymity as a Digital Right to Defense  
+## Anonymity as a Digital Right to Defense
 
 Anonymity has served a critical role in the development of ideas: intellectually, socially, & culturally. This importance is no less subdued in the modern day. Those who are considered radical are in danger of risking their entire livelihood for simply sharing ideas that may be against the modern ‘norm’ or status quo.
 

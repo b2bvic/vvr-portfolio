@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'If you feel like a failure, read this...'
+title: "If you feel like a failure, read this..."
 colors: colors-a
-date: '2023-11-12'
+date: "2023-11-12"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'If you feel like a failure, read this...'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "If you feel like a failure, read this..."
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 _“Go back the way you came” is not often the guidance you want to hear. It implies a lot of things, namely: failure, distress, possibly even panic._

@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'Learning When To Learn Soft Skills'
+title: "Learning When To Learn Soft Skills"
 colors: colors-a
-date: '2023-10-22'
+date: "2023-10-22"
 excerpt: >-
   The last few weeks have required me to invest quite a bit of time into developing soft skills....
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Learning When To Learn Soft Skills'
-metaDescription: 'The last few weeks have required me to invest quite a bit of time into developing soft skills....'
+metaTitle: "Learning When To Learn Soft Skills"
+metaDescription: "The last few weeks have required me to invest quite a bit of time into developing soft skills...."
 ---
-
 The last few weeks have required me to invest quite a bit of time into developing soft skills.
 
 I'm almost certain that this is a step within a career path that every person has to take when they're en-route into a new level within their discipline.
@@ -27,5 +26,5 @@ The issue with this is, there are times when suggestions are made from the clien
 
 This is where the development of soft skills comes into play.
 
-At the higher levels, no matter the industry, it becomes less about your ability to perform a function, but more about conveying the importance of those functions (and the order in which they are attacked.)  
+At the higher levels, no matter the industry, it becomes less about your ability to perform a function, but more about conveying the importance of those functions (and the order in which they are attacked.)
 If this doesn't make sense I'll present another example:

@@ -1,20 +1,19 @@
 ---
 type: PostLayout
-title: 'The Story of V'
+title: "The Story of V"
 colors: colors-a
-date: '2023-01-23'
+date: "2023-01-23"
 excerpt: >-
   date:: [[2019-12-02]]...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'The Story of V'
-metaDescription: 'date:: [[2019-12-02]]...'
+metaTitle: "The Story of V"
+metaDescription: "date:: [[2019-12-02]]..."
 ---
-
 date:: [[2019-12-02]]
-tags:: #👁 
+tags:: #👁
 
 I know, it's a different format now, I got tired of looking at the other one and I don't care enough to design something else so I'm just writing.
 
@@ -37,11 +36,11 @@ My Dad's Dad was a photographer / videographer, this led to my Dad's own interes
 So, to put this all in reference, by the age of 7, I was:
 
 -   Extremely outgoing socially
-    
+
 -   Was a Public Speaker
-    
+
 -   Adjusted to being On-Camera
-    
+
 
 You can sort of see how these skills would come into play later, but let's continue.
 
@@ -102,29 +101,29 @@ During this time, I fell into my first real depression, and began composing musi
 So, to recap:
 
 1.  Extremely outgoing socially (5)
-    
+
 2.  Was a Public Speaker (6)
-    
+
 3.  Adjusted to being On-Camera (7)
-    
+
 4.  Started Beatboxing (10)
-    
+
 5.  Started Hosting on Camera (12)
-    
+
 6.  Started Live Perfomances (12)
-    
+
 7.  Learned Trombone (13)
-    
+
 8.  Learned Baritone, Euphonium, Tuba, and Trumpet (14 - 15)
-    
+
 9.  Self-Taught Piano, learned Mallet Percussion, & Drumline (16)
-    
+
 10.   Performed Ska / Reggae / Punk Locally (16)
-    
+
 11.  Wrote My First Composition (17)
-    
+
 12.  Professional Studio Feature (20)
-    
+
 
 Most of these skills happened because of the one previous to it. They’re all sort of circling the same industry. 
 
@@ -149,54 +148,54 @@ It wasn’t the life I wanted, but I knew I wanted to be involved with Digital M
 Let’s see if I can rapid fire the next few years and spare a few details:
 
 -   16, Telemarketing, Product Specialist
-    
+
 -   17, Criminal, Performing Musician
-    
+
 -   19, Pizza Hut, while learning SEO
-    
+
 -   20, Warehouses, Forklift Operator, Freelance Content Writing
-    
+
 -   21, Warehouses, Machine Operator, Volunteer Social Media Gig
-    
+
 -   22, Marketing Coordinator, Child Piano Instruction
-    
+
 -   23, Marketing Supervisor, Adult Piano Instruction
-    
+
 -   24, Live Production + Director, Freelance Marketing
-    
+
 -   25, Content / Copy Specialist, Freelance Marketing
-    
+
 
 Most people told me that I’d never get a job writing for websites, [then I started doing that](https://retronuke.com/author/victor-romo/), then they told me I would never get a job doing social media, [then I started doing that](https://twitter.com/cobracarbide?lang=en), not many people understood why I worked for a church, but upped their content / media production to gain them 10,000+ subscribers within a few months, then people were skeptical that I had actually received a job offer because of people I know from twitter. 
 
 Fact of the matter is, I’m skilled at being talented, and talented with my application of skill.
 
 -   Music Instruction
-    
+
 -   Production
-    
+
 -   Live / Recorded Performance
-    
+
 -   Direction
-    
+
 -   Hosting
-    
+
 -   Website Concepts
-    
+
 -   Content / Ghost  / Copywriting / Editing
-    
+
 -   Email Marketing
-    
+
 -   Social Media Marketing
-    
+
 -   Basic Design
-    
+
 -   Corporate Development
-    
+
 -   Amazon eCommerce
-    
+
 -   Digital Advertisements
-    
+
 
 That’s really just scratching the surface. But I hope you understand the scope at which I operate, and why it’s been such a challenge for me to ‘focus up’ on one specific niche.
 
@@ -220,5 +219,5 @@ Your friend,
 
 Victor V
 
-  
+
 **

@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'How do you put 'what you don't know you don't know' into Google'
+title: "How do you put 'what you don't know you don't know' into Google"
 colors: colors-a
-date: '2023-05-12'
+date: "2023-05-12"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'How do you put 'what you don't know you don't know' into Google'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "How do you put 'what you don't know you don't know' into Google"
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 SEO is such a vast subject that you will spend 80% of your time getting to 20% mastery alone
@@ -22,14 +21,13 @@ YouTube University can only take you so far if you don’t understand how inform
 A local business owner I met on Saturday told me that he spent “hundreds of hours studying this stuff”
 
 **And you know what? It showed:**
-
--   Lean WordPress build
--   Site speed clocked < 1 second
--   Grasp of SEO concepts (metadata, schema, ranking)
+- Lean WordPress build
+- Site speed clocked < 1 second
+- Grasp of SEO concepts (metadata, schema, ranking)
 
 But do you know what else he had?
 
-Some very glaring but _easy-to-fix_ problems:
+Some very glaring but *easy-to-fix* problems:
 
 1.  Missing Descriptions
 2.  Titles Too Long / Short
@@ -41,14 +39,13 @@ WAT. You can’t do that.
 
 Here’s why:
 
--   The content is crawled somewhere else
--   With the same exact backlink structure
--   To affiliate links that aren’t his
+- The content is crawled somewhere else
+- With the same exact backlink structure
+- To affiliate links that aren’t his
 
 But you know the crazy part?
 
 **My guy was STILL ranking top 10 SERP for every original article. Even with blatant duplication.**
-
 Have we learned anything?
 
 Let’s recap:

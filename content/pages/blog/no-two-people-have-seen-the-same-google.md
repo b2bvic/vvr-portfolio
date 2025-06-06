@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'No two people have seen the same Google'
+title: "No two people have seen the same Google"
 colors: colors-a
-date: '2023-08-01'
+date: "2023-08-01"
 excerpt: >-
   No two people have seen the same Google....
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'No two people have seen the same Google'
-metaDescription: 'No two people have seen the same Google....'
+metaTitle: "No two people have seen the same Google"
+metaDescription: "No two people have seen the same Google...."
 ---
-
 No two people have seen the same Google.
 
 People who are thinking of Google or getting their website on google are typically enamored by two concepts: keywords & traffic.
@@ -38,7 +37,7 @@ We already use the word “Google” to mean “search the internet for specific
 
 That battle was fought a long time ago.
 
-What comes next though, is what evolves from here. 
+What comes next though, is what evolves from here.
 
 Some people think it’s voice search. Some people think it’s video search.
 

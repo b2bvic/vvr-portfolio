@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'Success is the Progressive Realization of a Worthy Goal'
+title: "Success is the Progressive Realization of a Worthy Goal"
 colors: colors-a
-date: '2023-09-28'
+date: "2023-09-28"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Success is the Progressive Realization of a Worthy Goal'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "Success is the Progressive Realization of a Worthy Goal"
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 Once You’ve Got Step One; Step Too 

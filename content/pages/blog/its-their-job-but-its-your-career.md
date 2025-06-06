@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'It's Their Job But It's Your Career'
+title: "It's Their Job But It's Your Career"
 colors: colors-a
-date: '2023-08-20'
+date: "2023-08-20"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'It's Their Job But It's Your Career'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "It's Their Job But It's Your Career"
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 Most people would have you believe that their careers just happened for them. An opportunity came about, they took it, and then worked for the last umpteen years as their responsibilities grew to meet their means.
@@ -44,7 +43,6 @@ How does one ensure that job-hopping doesn’t screw them out of their youth, th
 Seeking & Meeting The Challenge of Growth
 
 **Seeking & Meeting The Challenge of Growth**
-
 I’ve only ever needed to lie for an interview one time. It was for the first corporate marketing position I would ever have.
 
 The reason I lied is because I knew I could teach myself anything these Boomers would ask of me before they realized I was teaching it to myself.
@@ -74,7 +72,6 @@ If you have ANY questions, comments, or concerns, please do not hesitate to shar
 Confused about SEO? I got you.
 
 [**Book me for a 10 minute IDK to SEO meeting**](http://www.seobyvic.com/?utm_campaign=Methods%20%F0%9F%A4%9D%20Madness&utm_medium=email&utm_source=Revue%20newsletter) **to see what I can do for you or your company’s website.**
-
 Until tomorrow.
 
 Thank you for reading,

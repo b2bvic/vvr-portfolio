@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'Confidence, Creativity, & the Conflagration'
+title: "Confidence, Creativity, & the Conflagration"
 colors: colors-a
-date: '2023-02-04'
+date: "2023-02-04"
 excerpt: >-
   ## Stoking The Flame of Creativity...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Confidence, Creativity, & the Conflagration'
-metaDescription: '## Stoking The Flame of Creativity...'
+metaTitle: "Confidence, Creativity, & the Conflagration"
+metaDescription: "## Stoking The Flame of Creativity..."
 ---
-
 ## Stoking The Flame of Creativity
 
 Someone close to me said, _"I've never seen someone just so... sure of themselves. Like you know what you want to do is going to happen. How do you do that?"_

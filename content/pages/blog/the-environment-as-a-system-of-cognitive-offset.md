@@ -1,28 +1,25 @@
 ---
 type: PostLayout
-title: 'The Environment as a System of Cognitive-Offset'
+title: "The Environment as a System of Cognitive-Offset"
 colors: colors-a
-date: '2023-02-25'
+date: "2023-02-25"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'The Environment as a System of Cognitive-Offset'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "The Environment as a System of Cognitive-Offset"
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 _Your environment has served as a system for your brain to release cognitive stress or memories since you were a wee little human. Let’s discover how your environment is a system that can pre-determine outcomes in your life._
 
 An excerpt from [NOBA Project](https://nobaproject.com/modules/memory-encoding-storage-retrieval?utm_campaign=Methods%20%F0%9F%A4%9D%20Madness&utm_medium=email&utm_source=Revue%20newsletter) outlines the idea of ‘Encoding’ Memories from your environment.
 
-**Encoding refers to the initial experience of perceiving and learning information. When you walk across campus, for example, you encounter countless sights and sounds—friends passing by, people playing Frisbee, music in the air. The physical and mental environments are much too rich for you to encode all the happenings around you or the internal thoughts you have in response to them. So, an important first principle of encoding is that it is selective: we attend to some events in our environment and we ignore others. A second point about encoding is that it is prolific; we are always encoding the events of our lives—attending to the world, trying to understand it.** 
-
+**Encoding refers to the initial experience of perceiving and learning information. When you walk across campus, for example, you encounter countless sights and sounds—friends passing by, people playing Frisbee, music in the air. The physical and mental environments are much too rich for you to encode all the happenings around you or the internal thoughts you have in response to them. So, an important first principle of encoding is that it is selective: we attend to some events in our environment and we ignore others. A second point about encoding is that it is prolific; we are always encoding the events of our lives—attending to the world, trying to understand it.**
 **_So what’s that mean?_**
-
 The brain is up to the task, but it’s impossible for it to record everything. So it takes the most important stuff and record that instead.
 
 Whether positive or negative, we can think of these occurrences as forms of ‘trauma’.

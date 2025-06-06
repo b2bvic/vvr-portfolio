@@ -1,20 +1,19 @@
 ---
 type: PostLayout
-title: 'Take Your I Out'
+title: "Take Your I Out"
 colors: colors-a
-date: '2024-02-29'
+date: "2024-02-29"
 excerpt: >-
   date: [[2020-08-27]]...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Take Your I Out'
-metaDescription: 'date: [[2020-08-27]]...'
+metaTitle: "Take Your I Out"
+metaDescription: "date: [[2020-08-27]]..."
 ---
-
 date: [[2020-08-27]]
-tags:: #👁 
+tags:: #👁
 
 
 Last night I had the opportunity to speak with people much smarter than me during a dinner party.
@@ -65,48 +64,27 @@ make it 3 Years.
 
 ---
 
-  
-
 AGAIN - this guy just shattered my reality because [I only decided my 10 Year Plan like 6 damn days ago](https://us18.campaign-archive.com/?u=1c8d9ae2eee9f8610d9a21713&id=abd1c449ed). 
-
-  
 
 What's the reasoning? Well, a smart business owner knows that the markets are going to be different in 3 years time.
 
-  
-
 10 years is FAR too much of a commitment for anyone with business savvy to logically conclude is a good idea.
-
-  
 
 That changed nothing of my plans. I'm not going to budge. I've set my mind.
 
-  
-
 3 years it is. 
-
-  
 
 So, let's wrap this up:
 
-  
-
 Take yourself out of the equation, plan out the next 10 years, then do it in 3.
 
-  
-
 Cool? Cool.
-
-  
-  
 
 To Perfect Progress, 
 
 — Victor Valentine
 
-  
-
 [P.S. - My systems work for individuals and companies alike.](https://www.valentine.media/meet)
 
-  
+
 **

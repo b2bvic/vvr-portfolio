@@ -1,24 +1,23 @@
 ---
 type: PostLayout
-title: 'Exodus - Fall Advance'
+title: "Exodus - Fall Advance"
 colors: colors-a
-date: '2023-11-01'
+date: "2023-11-01"
 excerpt: >-
   **Lessons from the Fall Advance...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Exodus - Fall Advance'
-metaDescription: '**Lessons from the Fall Advance...'
+metaTitle: "Exodus - Fall Advance"
+metaDescription: "**Lessons from the Fall Advance..."
 ---
-
 **Lessons from the Fall Advance
 
 As you may or may not be aware, I left my home state of California to go live in North Carolina, a move which was made over a two month period, for a new Marketing Position.
 
 The total amount of travel was about 8 days, with a total of about 5 days of rest / relaxation, and about 50 hours worth of travel
-  
+
 
 It has been the experience of a lifetime, so far, even though it didn't quite go according to plan, it was, single-handedly, the most rewarding risk ever taken.
 
@@ -45,7 +44,7 @@ Lessons from moving between California to North Carolina, a thread:
 - Stand in strength, sit in silence
 - Detach from result; accept it
 - Do hard things
-  
+
 To everyone, thank you:
 
 @AsawaeOfAsh

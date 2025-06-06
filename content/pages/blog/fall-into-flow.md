@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'Fall Into Flow'
+title: "Fall Into Flow"
 colors: colors-a
-date: '2023-03-10'
+date: "2023-03-10"
 excerpt: >-
   [[@Victor Valentine Romo]]...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Fall Into Flow'
-metaDescription: '[[@Victor Valentine Romo]]...'
+metaTitle: "Fall Into Flow"
+metaDescription: "[[@Victor Valentine Romo]]..."
 ---
-
 [[@Victor Valentine Romo]]
 tags: #✍
 

@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'STOP Working Against The Seasons'
+title: "STOP Working Against The Seasons"
 colors: colors-a
-date: '2023-06-13'
+date: "2023-06-13"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'STOP Working Against The Seasons'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "STOP Working Against The Seasons"
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 Humans have been following the cycles of time since the beginning.
@@ -50,9 +49,7 @@ If you’ve felt yourself ‘waking up’ in the last few weeks - it’s because
 Run with it. Carry the momentum of the seasons around you.
 
 **You’ll go so much farther.**
-
 **You’ll do so much more.**
-
 You don’t even have to take my word for it.
 
 The answers are all around you.

@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'SEO is the MRI of Internet Hivemind'
+title: "SEO is the MRI of Internet Hivemind"
 colors: colors-a
-date: '2023-01-10'
+date: "2023-01-10"
 excerpt: >-
   # SEO is the MRI of Internet Hivemind...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'SEO is the MRI of Internet Hivemind'
-metaDescription: '# SEO is the MRI of Internet Hivemind...'
+metaTitle: "SEO is the MRI of Internet Hivemind"
+metaDescription: "# SEO is the MRI of Internet Hivemind..."
 ---
-
 # SEO is the MRI of Internet Hivemind
 
 Everyone knows that search engine optimization is the monitoring of  trends on the internet, and optimizing for those search trends themselves.

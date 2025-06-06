@@ -1,22 +1,23 @@
 ---
 type: PostLayout
-title: 'Victor's Vision_Index'
+title: "Victor's Vision_Index"
 colors: colors-a
-date: '2023-08-26'
+date: "2023-08-26"
 excerpt: >-
   ---...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Victor's Vision_Index'
-metaDescription: '---...'
+metaTitle: "Victor's Vision_Index"
+metaDescription: "---..."
+---
 ---
 
----
-tags: obsidian-auto-glossary
----
+## tags: obsidian-auto-glossary
+
 ## Index
+
 - [[An Analysis on the Exchange of Ideas in History & Modernity]]
 - [[Indoctrination, Hypnosis, and your Mind's Mantra]]
 - [[When The Environment Brings Out The Best In You]]

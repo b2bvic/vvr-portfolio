@@ -1,25 +1,24 @@
 ---
 type: PostLayout
-title: 'What do the seers see'
+title: "What do the seers see"
 colors: colors-a
-date: '2023-10-20'
+date: "2023-10-20"
 excerpt: >-
   date:: [[2020-08-20]]...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'What do the seers see'
-metaDescription: 'date:: [[2020-08-20]]...'
+metaTitle: "What do the seers see"
+metaDescription: "date:: [[2020-08-20]]..."
 ---
-
 date:: [[2020-08-20]]
 tags:: #👁
 
 I’ve been running with this idea in opposition to ‘world domination’
 
 A world where the structures that are built are not done so for hidden reasons or without transparency. There’s far too many examples of social systems or ‘contracts,’ with the purpose of making a better world.
-  
+
 And for a great majority of history, it has… as the cost of great violence is the price for such a world.
 
 It would be rather undeniable to assume that the age of unrest is only just beginning. In the same vein, one has to wonder what will be the foundation the ‘next’ world will be on.
@@ -45,10 +44,8 @@ We’re all already offering up this information, anyway. The age of weaponized 
 Eventually the internet will evolve, too.
 
 To perfect progress.
-  
-—Victor Valentine
 
-  
+—Victor Valentine
 
 P.S. - I’ll show you how this works for your business, too: [Valentine.Media/meet](http://www.valentine.media/meet)
 

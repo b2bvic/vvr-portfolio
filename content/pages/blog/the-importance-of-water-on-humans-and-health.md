@@ -1,20 +1,17 @@
 ---
 type: PostLayout
-title: 'The Importance Of Water On Humans And Health'
+title: "The Importance Of Water On Humans And Health"
 colors: colors-a
-date: '2023-08-18'
+date: "2023-08-18"
 excerpt: >-
   #### Water is the cradle of life for every animal and plant on Earth; too often it is regarded as something that could be done away with or replaced....
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'The Importance Of Water On Humans And Health'
-metaDescription: '#### Water is the cradle of life for every animal and plant on Earth; too often it is regarded as something that could be done away with or replaced....'
+metaTitle: "The Importance Of Water On Humans And Health"
+metaDescription: "#### Water is the cradle of life for every animal and plant on Earth; too often it is regarded as something that could be done away with or replaced...."
 ---
-
-
-
 #### Water is the cradle of life for every animal and plant on Earth; too often it is regarded as something that could be done away with or replaced.
 
 We have reached a point in human history where many consider water as a natural resource that could be done away with. Governments and corporations no longer consider how much damage can be done to this precious resource.
@@ -128,7 +125,6 @@ Your underarms are where your sympathetic and parasympathetic systems meet to cr
 -   **_Blood Vessels_**
 -   **_Stomach and Intestines_**
 -   **_And many other systems within the body._**
-
 Don’t take this information lightly, if aluminum has already been discovered as destructive to the brain, imagine what it could do to other systems in your body not yet thoroughly researched. Staying vigilant in all chemicals that you subject yourself to can have a dramatic impact on your life – for the better. Switching to natural alternatives like Rock Salt can still prevent you from sweating, while limiting the amount of heavy metals that get into your body.
 
 ### Be Happy And Healthy

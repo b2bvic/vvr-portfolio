@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'How Search Engines & Social Media Both Abuse Users'
+title: "How Search Engines & Social Media Both Abuse Users"
 colors: colors-a
-date: '2023-01-16'
+date: "2023-01-16"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'How Search Engines & Social Media Both Abuse Users'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "How Search Engines & Social Media Both Abuse Users"
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 That may come as a bit of a shock to you and that’s okay, but I’ll explain.

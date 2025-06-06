@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'Breathing as Cause & Effect 😤'
+title: "Breathing as Cause & Effect 😤"
 colors: colors-a
-date: '2024-05-02'
+date: "2024-05-02"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Breathing as Cause & Effect 😤'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "Breathing as Cause & Effect 😤"
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 Follow me now:
@@ -54,7 +53,6 @@ Let’s say you’re in a particularly stressful situation, and before taking th
 You’re very likely to create a situation that’s worse for yourself.
 
 Breathing is the exact mechanism that opens up the space for your ‘thinking’ mind to determine a **better outcome or response to stressors.**
-
 It’s a stabilizing force, it’s a renewal, it’s a **gift**.
 
 It could be the filter you need to take the environment around you and turn it into your creative play-space.
@@ -72,7 +70,6 @@ Offer guidance, support, love, _especially for yourself._
 Now, how can breathing tie into your goals?
 
 Well, let’s get into a tactic I’ve used for a decade— **SMART Goals:**
-
 **SMART goals** are a metric to determine the effectiveness of your ambitions. They follow these parameters:
 
 1.  **S**pecific

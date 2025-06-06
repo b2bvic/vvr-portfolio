@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'The Case For Marketing Yourself'
+title: "The Case For Marketing Yourself"
 colors: colors-a
-date: '2023-10-26'
+date: "2023-10-26"
 excerpt: >-
   ## The Case For Marketing Yourself...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'The Case For Marketing Yourself'
-metaDescription: '## The Case For Marketing Yourself...'
+metaTitle: "The Case For Marketing Yourself"
+metaDescription: "## The Case For Marketing Yourself..."
 ---
-
 ## The Case For Marketing Yourself
 
 Earlier today I came to the realization:

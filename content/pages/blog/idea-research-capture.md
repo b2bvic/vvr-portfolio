@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'Idea, Research, Capture'
+title: "Idea, Research, Capture"
 colors: colors-a
-date: '2023-05-07'
+date: "2023-05-07"
 excerpt: >-
   **Idea? Research. Capture!...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Idea, Research, Capture'
-metaDescription: '**Idea? Research. Capture!...'
+metaTitle: "Idea, Research, Capture"
+metaDescription: "**Idea? Research. Capture!..."
 ---
-
 **Idea? Research. Capture!
 
 This document covers a section within the [Ultimate Organic Marketing Flow](https://www.facebook.com/groups/virtualvisionaries/permalink/717899405673520/) chart.
@@ -62,20 +61,20 @@ Good ideas happen for a reason and you don’t want to miss a single one.
 When it comes to developing content for a specific audience, I like to ask myself two questions:
 
 -   Why should they ‘opt-in’ their attention to what I post?
-    
+
 -   What is my S.P.I.N.?
-    
+
 
 SPIN stands for:
 
 -   Solution?
-    
+
 -   Purpose?
-    
+
 -   Impact?
-    
+
 -   Narrative?
-    
+
 
 Is your content based around the solution of a specific problem? Chances are they will want that information.
 

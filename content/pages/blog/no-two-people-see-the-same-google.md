@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'No Two People See The Same Google'
+title: "No Two People See The Same Google"
 colors: colors-a
-date: '2023-05-30'
+date: "2023-05-30"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'No Two People See The Same Google'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "No Two People See The Same Google"
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 People who are thinking of Google or getting their website on google are typically enamored by two concepts: keywords & traffic.
@@ -32,7 +31,6 @@ _If you look at a square, can draw a square over it, and connect the vertices - 
 _If you look at keyword intent, can draw the traffic over it, and connect the audiences - you are starting to get the picture, yeah?_
 
 **Where does that leave the average person? What can be done about this?**
-
 Well, nothing. It’s too late.
 
 We already use the word “Google” to mean “search the internet for specific information”.
@@ -50,7 +48,6 @@ It has an uphill battle against YouTube / Google / Alphabet, but it’s more tha
 Everyone knows the way you change a culture is by getting to the children.
 
 **That’s what subversion is.**
-
 .
 
 .

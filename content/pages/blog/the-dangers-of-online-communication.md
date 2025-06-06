@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'The Dangers of Online Communication'
+title: "The Dangers of Online Communication"
 colors: colors-a
-date: '2023-06-15'
+date: "2023-06-15"
 excerpt: >-
   When people warn you about networking on the internet, I feel as though it is approached with an archaic mindset....
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'The Dangers of Online Communication'
-metaDescription: 'When people warn you about networking on the internet, I feel as though it is approached with an archaic mindset....'
+metaTitle: "The Dangers of Online Communication"
+metaDescription: "When people warn you about networking on the internet, I feel as though it is approached with an archaic mindset...."
 ---
-
 When people warn you about networking on the internet, I feel as though it is approached with an archaic mindset.
 
 Being 26, I remember growing up in a world where we avoided strangers, explored our hometowns until the sun went down / the ‘lights’ came on, & generally had an experience that was not unlike the generations that have come before us.

@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'Discipline shows in your action & lack of it'
+title: "Discipline shows in your action & lack of it"
 colors: colors-a
-date: '2023-05-08'
+date: "2023-05-08"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Discipline shows in your action & lack of it'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "Discipline shows in your action & lack of it"
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 When you're followed by past action...
@@ -34,7 +33,6 @@ To name a few:
 So naturally, I was a little bit distracted. I like to study new things and if its the same for you then congratulations - we’re the same flavor of ADHD.
 
 **What’s the point?**
-
 None of these studies were absent of the fact that SEO has shaped the way I perceive the internet, beyond that it’s shaped the way I view connections between subjects, activity, people, even your ‘_inner_’ you to your ‘_outer_’ you.
 
 All of it, influenced by the way I’ve learned how Search Engines interact with Websites, and how Humans interact with both, and how all of them change because of it.
@@ -42,9 +40,7 @@ All of it, influenced by the way I’ve learned how Search Engines interact with
 SEO became a lens by which I peer into other professions, industries.
 
 You stop seeing things from the professional’s view, and start seeing it from the perspective of a customer or client **_experiencing an issue and attempt to put it to words._**
-
 **_There’s a level of investigation that takes place when you ‘go through the motions.’_**
-
 Removing your perspective completely, emptying your cup, in order to trace the steps that so many others take on a daily basis.
 
 It’s tranquil.

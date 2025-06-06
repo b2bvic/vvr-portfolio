@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'The ONE Secret to the Best Systems...'
+title: "The ONE Secret to the Best Systems..."
 colors: colors-a
-date: '2024-03-26'
+date: "2024-03-26"
 excerpt: >-
   tags:: #🤝...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'The ONE Secret to the Best Systems...'
-metaDescription: 'tags:: #🤝...'
+metaTitle: "The ONE Secret to the Best Systems..."
+metaDescription: "tags:: #🤝..."
 ---
-
 tags:: #🤝
 
 _Systems-thinking is a mystery for most people because they don’t know where to begin, lets solve that today. Read on to learn how to most basic forms of systems are the easiest ones to implement._
@@ -44,7 +43,6 @@ But before that voice speaks, the one that’s emotionally reacting, there’s a
 Accepting Chaos as a Variable
 
 Here’s the jagged pill: **life is going to happen to you.**
-
 There’s **nothing you can do** to prevent this from happening to you.
 
 You can make all the plans in the world, cover every variable in your mind prior to the situation or process, do whatever you feel is necessary to prepare you.
@@ -60,13 +58,10 @@ But you will never know **until the situation is actively unfolding**, which de
 This is the most challenging part of systems, is knowing that they aren’t always going to work for every situation.
 
 The **first** system is learning the **system.**
-
 The **second** system is learning **when to use the system.**
-
 Once chaos is approached from the mindset of “_there’s no way I could have predicted this, but I know the appropriate response._”
 
 The best system is one that is **flexible enough to adjust to life’s chaos** while being **reliable enough to create repeatable results.**
-
 This concept can be applied to any system…
 
 -   Your **family**
@@ -80,7 +75,6 @@ This concept can be applied to any system…
 -   Your **computer**
 -   Your **smartphone**
 -   Your **place of work**
-
 Something to consider.
 
 Thank you for reading.

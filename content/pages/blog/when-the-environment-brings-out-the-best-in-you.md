@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'When The Environment Brings Out The Best In You'
+title: "When The Environment Brings Out The Best In You"
 colors: colors-a
-date: '2023-04-26'
+date: "2023-04-26"
 excerpt: >-
   date:: [[2019-11-26]]...
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'When The Environment Brings Out The Best In You'
-metaDescription: 'date:: [[2019-11-26]]...'
+metaTitle: "When The Environment Brings Out The Best In You"
+metaDescription: "date:: [[2019-11-26]]..."
 ---
-
 date:: [[2019-11-26]]
 tags:: #👁
 
@@ -25,7 +24,7 @@ That’s how long I’ve spent in Raleigh.
 It’s been an interesting 16 days.
 
 I’m going to spare a majority of the details, as they will eventually get distilled into further writings and lessons that I am finally now coming around to writing.
-  
+
 There’s a certain familiarity to Raleigh that reminds me a lot of Riverside.
 
 For one, the longer roads that run through my hometown, are windy two-lane roads that often gets congested.
@@ -53,7 +52,7 @@ Leaving the narratives of our histories is an experience everyone needs to do on
 There’s a level of missing bias that allows you to really test yourself in new ways.
 
 I taught myself a new Content Management System (CMS) and Visual Web Builder.
-  
+
 I never once protested not learning it, but I took the time yesterday to experiment with it a bit and get a good grasp on how the program works.
 
 Which means that I’m done having to work with Wordpress and Elementor.

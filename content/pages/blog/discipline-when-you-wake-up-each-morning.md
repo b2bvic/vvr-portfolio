@@ -1,18 +1,17 @@
 ---
 type: PostLayout
-title: 'Discipline - When You Wake Up Each Morning'
+title: "Discipline - When You Wake Up Each Morning"
 colors: colors-a
-date: '2023-07-10'
+date: "2023-07-10"
 excerpt: >-
   #### Discipline is nothing more than repetition of action....
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
-metaTitle: 'Discipline - When You Wake Up Each Morning'
-metaDescription: '#### Discipline is nothing more than repetition of action....'
+metaTitle: "Discipline - When You Wake Up Each Morning"
+metaDescription: "#### Discipline is nothing more than repetition of action...."
 ---
-
 #### Discipline is nothing more than repetition of action.
 
 There's no connotation for the 'positive' or 'negative' aspects of discipline, you're practicing it everyday. It's your to do list.
