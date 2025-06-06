@@ -64,6 +64,37 @@ sections:
           - pr-4
         textAlign: left
     subtitle: Featured Projects
+  - type: MetricsSection
+    elementId: ''
+    colors: colors-f
+    title: 'Proven Results'
+    subtitle: 'Systematic approaches that deliver measurable outcomes across industries and scales.'
+    metrics:
+      - value: 2700
+        suffix: '%'
+        label: 'Revenue Growth'
+        description: 'FOUND annual revenue increase 2023-2024'
+      - value: 250000
+        suffix: '+'
+        label: 'Technical Optimizations'
+        description: 'SEO line items executed at Grey Matter'
+      - value: 147
+        label: 'Clients Managed'
+        description: 'Systematic SEO strategies implemented'
+      - value: 90
+        suffix: '%'
+        label: 'Client Acquisition Rate'
+        description: 'Personal success rate at FOUND'
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        textAlign: center
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f

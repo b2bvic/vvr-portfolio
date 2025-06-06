@@ -10,7 +10,9 @@
     "dependencies": {
         "@tailwindcss/postcss": "^4.0.12",
         "classnames": "^2.5.1",
+        "clsx": "^2.1.1",
         "dayjs": "^1.11.11",
+        "framer-motion": "^12.16.0",
         "front-matter": "^4.0.2",
         "glob": "^10.3.10",
         "markdown-to-jsx": "^7.7.1",

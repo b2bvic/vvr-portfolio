@@ -4,6 +4,7 @@ import Markdown from 'markdown-to-jsx';
 import { AnnotatedField } from '@/components/Annotated';
 import { Action } from '@/components/atoms';
 import { DynamicComponent } from '@/components/components-registry';
+import { TypewriterEffect } from '@/components/react-bits';
 import { HeroSection } from '@/types';
 import { mapStylesToClassNames as mapStyles } from '@/utils/map-styles-to-class-names';
 import Section from '../Section';
@@ -23,7 +24,21 @@ export default function Component(props: HeroSection) {
                 <div className={classNames('flex-1 w-full', mapStyles({ textAlign: sectionAlign }))}>
                     {title && (
                         <AnnotatedField path=".title">
-                            <h1 className="text-5xl sm:text-6xl">{title}</h1>
+                            <h1 className="text-5xl sm:text-6xl">
+                                {title.includes('Architect of Digital Systems') ? (
+                                    <TypewriterEffect 
+                                        words={[
+                                            'Architect of Digital Systems',
+                                            'SEO Systems Engineer', 
+                                            'Scale With Search Founder',
+                                            'Architect of Digital Systems'
+                                        ]}
+                                        className="text-5xl sm:text-6xl font-bold"
+                                    />
+                                ) : (
+                                    title
+                                )}
+                            </h1>
                         </AnnotatedField>
                     )}
                     {subtitle && (
