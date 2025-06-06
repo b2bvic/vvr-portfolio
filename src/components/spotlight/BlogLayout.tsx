@@ -1,3 +1,4 @@
+import Markdown from 'markdown-to-jsx'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 
@@ -54,10 +55,12 @@ export function BlogLayout({ page, global }: any) {
                 )}
               </header>
               {page?.markdownContent ? (
-                <div 
-                  className="mt-8 prose dark:prose-invert" 
-                  dangerouslySetInnerHTML={{ __html: page.markdownContent }}
-                />
+                <Markdown
+                  options={{ forceBlock: true, forceWrapper: true }}
+                  className="mt-8 prose prose-zinc dark:prose-invert max-w-none prose-lg"
+                >
+                  {page.markdownContent}
+                </Markdown>
               ) : (
                 <div className="mt-8">
                   <p>Content is loading...</p>
