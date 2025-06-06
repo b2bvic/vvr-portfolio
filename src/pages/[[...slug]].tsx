@@ -215,7 +215,7 @@ function SpotlightHomepage({ posts }: { posts: any[] }) {
         <div className="max-w-2xl">
           <div className="flex items-center gap-x-6">
             <img
-              src="/images/avatar.jpg"
+              src="/images/victor-headshot.jpg"
               alt="Victor Valentine Romo"
               className="h-16 w-16 rounded-full object-cover"
             />

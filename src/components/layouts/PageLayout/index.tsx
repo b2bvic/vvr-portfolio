@@ -69,7 +69,7 @@ const Component: React.FC<ComponentProps> = (props) => {
                         <div className="lg:pl-20">
                             <div className="max-w-xs px-2.5 lg:max-w-none">
                                 <img
-                                    src="/images/avatar.jpg"
+                                    src="/images/victor-headshot.jpg"
                                     alt="Victor Valentine Romo"
                                     className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
                                 />
