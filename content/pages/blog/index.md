@@ -1,48 +1,93 @@
 ---
 type: PostFeedLayout
 title: Blog
-colors: colors-a
-backgroundImage:
-  type: BackgroundImage
-  url: /images/bg2.jpg
-  backgroundSize: cover
-  backgroundPosition: center
-  backgroundRepeat: no-repeat
-  opacity: 75
-postFeed:
-  type: PostFeedSection
-  colors: colors-f
-  showDate: true
-  showAuthor: false
-  showExcerpt: true
-  showFeaturedImage: true
-  showReadMoreLink: true
-  variant: variant-d
-  styles:
-    self:
-      width: narrow
-      padding:
-        - pt-0
-        - pl-4
-        - pr-4
-        - pb-12
 topSections:
-  - type: HeroSection
-    title: Blog
-    subtitle: ''
-    actions: []
-    colors: colors-f
-    backgroundSize: full
-    elementId: ''
+  - type: DividerSection
+    colors: colors-a
     styles:
       self:
         height: auto
-        width: narrow
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
         padding:
-          - pt-16
-          - pb-16
+          - pt-12
+          - pb-12
           - pl-4
           - pr-4
-        flexDirection: row
+        justifyContent: center
+    elementId: ''
+  - type: FeaturedPostsSection
+    colors: colors-a
+    variant: variant-d
+    elementId: ''
+    showDate: true
+    showAuthor: false
+    showExcerpt: true
+    showReadMoreLink: true
+    readMoreLinkLabel: Read More
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-0
+          - pb-24
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
         textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+bottomSections:
+  - type: DividerSection
+    colors: colors-a
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-4
+          - pb-4
+          - pl-4
+          - pr-4
+        justifyContent: center
+    elementId: ''
+styles:
+  title:
+    textAlign: center
+postFeed:
+  showDate: true
+  showAuthor: false
+  showExcerpt: true
+  showReadMoreLink: true
+  readMoreLinkLabel: Read More
+  variant: variant-a
+  colors: colors-a
+  styles:
+    self:
+      width: wide
+      padding:
+        - pt-0
+        - pb-24
+        - pl-4
+        - pr-4
+metaTitle: "Victor's Thoughts & Reflections"
+metaDescription: 'Personal insights, creative writing, and philosophical reflections on technology, consciousness, and human experience.'
 ---
