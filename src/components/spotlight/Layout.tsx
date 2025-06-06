@@ -6,9 +6,8 @@ import { Fragment } from 'react'
 
 import { Container } from './Container'
 import {
-    GitHubIcon,
     LinkedInIcon,
-    XIcon,
+    XIcon
 } from './SocialIcons'
 
 function CloseIcon(props: React.SVGProps<SVGSVGElement>) {
@@ -204,54 +203,128 @@ function Footer() {
   return (
     <footer className="mt-32 flex-none">
       <Container className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
-        <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-          <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-            <Link
-              href="/about-me"
-              className="transition hover:text-teal-500 dark:hover:text-teal-400"
-            >
-              About
-            </Link>
-            <Link
-              href="/projects"
-              className="transition hover:text-teal-500 dark:hover:text-teal-400"
-            >
-              Projects
-            </Link>
-            <Link
-              href="/blog"
-              className="transition hover:text-teal-500 dark:hover:text-teal-400"
-            >
-              Blog
-            </Link>
+        <div className="flex flex-col gap-10 lg:flex-row lg:justify-between">
+          {/* Business Links */}
+          <div className="flex flex-col gap-6 lg:flex-row lg:gap-16">
+            <div>
+              <h3 className="text-sm font-semibold text-zinc-800 dark:text-zinc-100">Services</h3>
+              <div className="mt-4 flex flex-col gap-2">
+                <Link
+                  href="https://scalewithsearch.com"
+                  className="text-sm text-zinc-600 transition hover:text-teal-500 dark:text-zinc-400 dark:hover:text-teal-400"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Retained SEO Services
+                </Link>
+                <Link
+                  href="https://seobyrole.com"
+                  className="text-sm text-zinc-600 transition hover:text-teal-500 dark:text-zinc-400 dark:hover:text-teal-400"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  SEO Playbooks for Every Professional
+                </Link>
+                <Link
+                  href="https://seoforexecutives.com"
+                  className="text-sm text-zinc-600 transition hover:text-teal-500 dark:text-zinc-400 dark:hover:text-teal-400"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  SEO Newsletter
+                </Link>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-zinc-800 dark:text-zinc-100">Navigation</h3>
+              <div className="mt-4 flex flex-col gap-2">
+                <Link
+                  href="/about-me"
+                  className="text-sm text-zinc-600 transition hover:text-teal-500 dark:text-zinc-400 dark:hover:text-teal-400"
+                >
+                  About
+                </Link>
+                <Link
+                  href="/projects"
+                  className="text-sm text-zinc-600 transition hover:text-teal-500 dark:text-zinc-400 dark:hover:text-teal-400"
+                >
+                  Projects
+                </Link>
+                <Link
+                  href="/blog"
+                  className="text-sm text-zinc-600 transition hover:text-teal-500 dark:text-zinc-400 dark:hover:text-teal-400"
+                >
+                  Blog
+                </Link>
+              </div>
+            </div>
           </div>
-          <div className="flex gap-6">
-            <Link
-              href="https://twitter.com/victorvalentineromo"
-              className="group -m-1 p-1"
-              aria-label="Follow on X"
-            >
-              <XIcon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
-            </Link>
-            <Link
-              href="https://github.com/victorvalentineromo"
-              className="group -m-1 p-1"
-              aria-label="Follow on GitHub"
-            >
-              <GitHubIcon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
-            </Link>
-            <Link
-              href="https://linkedin.com/in/victorvalentineromo"
-              className="group -m-1 p-1"
-              aria-label="Follow on LinkedIn"
-            >
-              <LinkedInIcon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
-            </Link>
+          
+          {/* Social Links */}
+          <div>
+            <h3 className="text-sm font-semibold text-zinc-800 dark:text-zinc-100">Follow</h3>
+            <div className="mt-4 flex gap-4">
+              <Link
+                href="https://x.com/b2bvic"
+                className="group -m-1 p-1"
+                aria-label="Follow on X"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <XIcon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+              </Link>
+              <Link
+                href="https://linkedin.com/in/victorvalentineromo"
+                className="group -m-1 p-1"
+                aria-label="Follow on LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkedInIcon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+              </Link>
+              <Link
+                href="https://facebook.com/b2bvic"
+                className="group -m-1 p-1"
+                aria-label="Follow on Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+              </Link>
+              <Link
+                href="https://instagram.com/b2bvic"
+                className="group -m-1 p-1"
+                aria-label="Follow on Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300">
+                  <path d="M12.017 0C8.396 0 7.989.013 7.041.048 6.094.082 5.52.204 5.019.389a6.275 6.275 0 0 0-2.257 1.526A6.324 6.324 0 0 0 .389 5.019C.204 5.52.082 6.094.048 7.041.013 7.989 0 8.396 0 12.017c0 3.624.013 4.09.048 5.101.034.946.156 1.519.389 2.019a6.275 6.275 0 0 0 1.526 2.257 6.325 6.325 0 0 0 2.257 1.526c.5.185 1.073.307 2.019.389.948.035 1.354.048 4.973.048 3.624 0 4.09-.013 5.101-.048.946-.034 1.519-.156 2.019-.389a6.275 6.275 0 0 0 2.257-1.526 6.324 6.324 0 0 0 1.526-2.257c.185-.5.307-1.073.389-2.019.035-.948.048-1.354.048-4.973 0-3.624-.013-4.09-.048-5.101-.034-.946-.156-1.519-.389-2.019a6.275 6.275 0 0 0-1.526-2.257A6.325 6.325 0 0 0 16.984.389C16.483.204 15.91.082 14.964.048 14.016.013 13.61 0 9.986 0h2.031z"/>
+                  <path d="M12.017 5.838a6.179 6.179 0 1 0 0 12.358 6.179 6.179 0 0 0 0-12.358zM12.017 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/>
+                  <circle cx="18.406" cy="5.594" r="1.44"/>
+                </svg>
+              </Link>
+              <Link
+                href="https://tiktok.com/@b2bvic"
+                className="group -m-1 p-1"
+                aria-label="Follow on TikTok"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300">
+                  <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+                </svg>
+              </Link>
+            </div>
           </div>
         </div>
-        <p className="mt-6 text-center text-sm text-zinc-400 dark:text-zinc-500">
-          &copy; {new Date().getFullYear()} Victor Valentine Romo. All rights reserved.
-        </p>
+        <div className="mt-10 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">
+          <p className="text-center text-sm text-zinc-400 dark:text-zinc-500">
+            &copy; {new Date().getFullYear()} Victor Valentine Romo. All rights reserved.
+          </p>
+        </div>
       </Container>
     </footer>
   )

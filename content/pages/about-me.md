@@ -61,7 +61,13 @@ sections:
 
       Over the past decade, I've founded and led three marketing departments, each achieving **eight-figure revenue milestones**:
 
-      #### REMARQ dba FOUND (COO & Co-Founder) — March 2024 - Present
+      #### Scale With Search (Founder & Search Consultant) — 2024 - Present
+      - **Systematic SEO consulting** for select B2B SaaS, e-commerce, and professional services clients
+      - **Bespoke implementations** that prioritize compound value over quick fixes
+      - **AI-powered optimization frameworks** that enhance strategic thinking
+      - **Focus on sustainable competitive advantages** through systematic SEO architecture
+
+      #### REMARQ dba FOUND (COO & Co-Founder) — March 2023 - 2024
       - **2,700% revenue increase** between 2023-2024
       - **Secured 90% of 2024 clients** through systematic relationship building and strategic positioning
       - **Leveraged AI to scale SEO operations**, boosting clicks 1400% from key keywords in 12 months

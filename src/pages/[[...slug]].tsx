@@ -154,11 +154,18 @@ function Role({ role }: { role: any }) {
 function Resume() {
   let resume = [
     {
+      company: 'Scale With Search',
+      title: 'Founder & Search Consultant',
+      logo: 'S',
+      start: '2024',
+      end: 'Present',
+    },
+    {
       company: 'REMARQ dba FOUND',
       title: 'COO & Co-Founder',
       logo: 'F',
-      start: '2024',
-      end: 'Present',
+      start: '2023',
+      end: '2024',
     },
     {
       company: 'Ready Set Grow dba Grey Matter',

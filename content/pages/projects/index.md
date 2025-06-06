@@ -29,7 +29,7 @@ topSections:
   - type: HeroSection
     title: Professional Experience
     subtitle: >-
-      Systematic SEO excellence across agencies and consultancies. From managing 147 clients and executing 250,000+ optimizations at Grey Matter to driving 2,700% revenue growth and 1,400% keyword performance increases as COO of FOUND.
+      Systematic SEO excellence from founding Scale With Search to driving 2,700% revenue growth at FOUND and executing 250,000+ optimizations across 147 clients at Grey Matter. Now providing bespoke SEO consulting through systematic, AI-powered optimization frameworks.
 
 
       **Key Achievements:**
