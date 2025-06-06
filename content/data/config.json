@@ -30,17 +30,38 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "SEO for Executives",
-                "label": "SEO for Executives",
-                "url": "https://seoforexecutives.com/",
+                "altText": "LinkedIn",
+                "label": "LinkedIn",
+                "url": "https://linkedin.com/in/b2bvic",
+                "icon": "linkedin"
+            },
+            {
+                "type": "Social",
+                "altText": "Instagram",
+                "label": "Instagram",
+                "url": "https://instagram.com/b2bvic",
+                "icon": "instagram"
+            },
+            {
+                "type": "Social",
+                "altText": "X (Twitter)",
+                "label": "X",
+                "url": "https://x.com/b2bvic",
                 "icon": "twitter"
             },
             {
                 "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/vvr",
+                "altText": "Scale With Search - SEO Retained Services",
+                "label": "Scale With Search",
+                "url": "https://scalewithsearch.com",
                 "icon": "github"
+            },
+            {
+                "type": "Social",
+                "altText": "SEO for Executives - SEO Newsletter",
+                "label": "SEO Newsletter",
+                "url": "https://seoforexecutives.com",
+                "icon": "twitter"
             }
         ],
         "styles": {
@@ -61,7 +82,7 @@
             {
                 "type": "Link",
                 "label": "Contact",
-                "url": "mailto:victor@seoforexecutives.com",
+                "url": "mailto:victor@scalewithsearch.com",
                 "altText": ""
             },
             {
@@ -80,8 +101,8 @@
         "contacts": {
             "type": "ContactBlock",
             "title": "Get in touch",
-            "email": "victor@seoforexecutives.com",
-            "emailAltText": "Email Victor",
+                            "email": "victor@scalewithsearch.com",
+                "emailAltText": "Email Victor",
             "address": "Available for consulting worldwide",
             "addressAltText": "Consulting availability"
         },

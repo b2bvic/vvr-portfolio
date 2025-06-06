@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      Architect of Digital Systems & Scalable Growth
+      Victor Valentine Romo — SEO. Autodidact. Information Architect. Personal Knowledge Systems. Semantics & Syntax. Scaling Your Business Website With Search. Multi-Instrumentalist.
     subtitle: >-
       I don't build websites. I architect the systematic digital infrastructures that drive market dominance and establish unshakeable competitive advantages.
 
@@ -133,7 +133,7 @@ sections:
       ## Current Focus: Scale With Search
 
 
-      Through [Scale With Search](https://seoforexecutives.com/), I work with a select number of businesses that understand the strategic value of systematic SEO implementation.
+      Through [Scale With Search](https://scalewithsearch.com/), I work with a select number of businesses that understand the strategic value of systematic SEO implementation.
 
 
       I don't take on clients who want quick fixes or tactical implementations. I work with organizations that recognize SEO as the systematic foundation for sustainable competitive advantage.
@@ -184,6 +184,9 @@ sections:
 
 
       If you're building something significant and need systematic SEO architecture that compounds value over time rather than provides temporary improvements, let's talk.
+
+
+      [Schedule a consultation →](https://scalewithsearch.com/meet)
 
 
       I work with businesses that understand the strategic importance of getting digital foundations right from the beginning, not companies looking for quick fixes to tactical problems.
