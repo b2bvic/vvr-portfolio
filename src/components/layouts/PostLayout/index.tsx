@@ -1,8 +1,9 @@
 import dayjs from 'dayjs';
 import Markdown from 'markdown-to-jsx';
-import Head from 'next/head';
 import { useRouter } from 'next/router';
 import * as React from 'react';
+
+import { SEOHead } from '@/components/SEOHead';
 
 import { DynamicComponent } from '@/components/components-registry';
 import { Container } from '@/components/spotlight/Container';
@@ -33,10 +34,13 @@ const Component: React.FC<ComponentProps> = (props) => {
 
     return (
         <Layout>
-            <Head>
-                <title>{title} - Victor Valentine Romo</title>
-                <meta name="description" content={props.excerpt} />
-            </Head>
+            <SEOHead
+                title={`${title} - Victor Valentine Romo`}
+                description={props.excerpt}
+                type="article"
+                publishedTime={dateTimeAttr}
+                ogImage={media?.url}
+            />
             <Container className="mt-16 lg:mt-32">
                 <div className="xl:relative">
                     <div className="mx-auto max-w-2xl">

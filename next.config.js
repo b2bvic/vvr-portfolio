@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     env: {
-        stackbitPreview: process.env.STACKBIT_PREVIEW || 'false'
+        stackbitPreview: process.env.STACKBIT_PREVIEW || 'false',
+        NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || 'https://victorvalentineromo.com'
     },
     trailingSlash: true,
     reactStrictMode: true,

@@ -2,7 +2,7 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { Fragment } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 
 import { Container } from './Container'
 import {
@@ -126,8 +126,36 @@ function DesktopNavigation(props: React.ComponentProps<'nav'>) {
 }
 
 function ThemeToggle() {
+  const [isDark, setIsDark] = useState(false)
+
+  useEffect(() => {
+    // Check if we're on the client side
+    if (typeof window !== 'undefined') {
+      // Check for saved theme preference or default to 'light'
+      const savedTheme = localStorage.getItem('theme')
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+      
+      if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+        setIsDark(true)
+        document.documentElement.classList.add('dark')
+      } else {
+        setIsDark(false)
+        document.documentElement.classList.remove('dark')
+      }
+    }
+  }, [])
+
   function toggleTheme() {
-    document.documentElement.classList.toggle('dark')
+    const newIsDark = !isDark
+    setIsDark(newIsDark)
+    
+    if (newIsDark) {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('theme', 'dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('theme', 'light')
+    }
   }
 
   return (

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import { DynamicComponent } from '@/components/components-registry';
+import { SEOHead } from '@/components/SEOHead';
 import { PageComponentProps } from '@/types';
 import { allContent } from '@/utils/content';
 import { seoGenerateMetaDescription, seoGenerateMetaTags, seoGenerateTitle } from '@/utils/seo-utils';
@@ -157,15 +158,15 @@ function Resume() {
       company: 'Scale With Search',
       title: 'Founder & Search Consultant',
       logo: 'S',
-      start: '2024',
+      start: '2025',
       end: 'Present',
     },
     {
       company: 'REMARQ dba FOUND',
       title: 'COO & Co-Founder',
       logo: 'F',
-      start: '2023',
-      end: '2024',
+      start: '2020',
+      end: 'Present',
     },
     {
       company: 'Ready Set Grow dba Grey Matter',
@@ -213,11 +214,11 @@ function SpotlightHomepage({ posts }: { posts: any[] }) {
 
   return (
     <Layout>
-      <Head>
-        <title>Victor Valentine Romo - Architect of Digital Systems & Scalable Growth</title>
-        <meta name="description" content="I architect and implement comprehensive digital systems that drive scalable growth and establish market leadership through technical SEO, process automation, and content strategy." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      <SEOHead
+        title="Victor Valentine Romo - Architect of Digital Systems & Scalable Growth"
+        description="I architect and implement comprehensive digital systems that drive scalable growth and establish market leadership through technical SEO, process automation, and content strategy."
+        type="profile"
+      />
       <Container className="mt-9">
         <div className="max-w-2xl">
           <div className="flex items-center gap-x-6">
