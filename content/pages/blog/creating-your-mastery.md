@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Creating Your Mastery"
 colors: colors-a
-date: "2023-09-09"
+date: '2023-09-09'
 excerpt: >-
-  date:: [[2019-08-31]]...
+  date:: [[2019-08-31]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

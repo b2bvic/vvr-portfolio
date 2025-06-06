@@ -2,9 +2,9 @@
 type: PostLayout
 title: "The Case For Marketing Yourself"
 colors: colors-a
-date: "2023-10-26"
+date: '2023-10-26'
 excerpt: >-
-  ## The Case For Marketing Yourself...
+  ## The Case For Marketing Yourself......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

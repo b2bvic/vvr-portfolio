@@ -2,9 +2,9 @@
 type: PostLayout
 title: "My (Ex)periences"
 colors: colors-a
-date: "2024-02-10"
+date: '2024-02-10'
 excerpt: >-
-  date:: [[2020-01-09]]...
+  date:: [[2020-01-09]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

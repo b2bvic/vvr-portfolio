@@ -2,9 +2,9 @@
 type: PostLayout
 title: "The Environment as a System of Cognitive-Offset"
 colors: colors-a
-date: "2023-02-25"
+date: '2023-02-25'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

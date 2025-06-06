@@ -2,9 +2,9 @@
 type: PostLayout
 title: "How To Create Content From Just An Idea"
 colors: colors-a
-date: "2023-11-18"
+date: '2023-11-18'
 excerpt: >-
-  ## It All Begins With Research...
+  ## It All Begins With Research......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

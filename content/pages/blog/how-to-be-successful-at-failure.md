@@ -2,9 +2,9 @@
 type: PostLayout
 title: "How To Be Successful At Failure"
 colors: colors-a
-date: "2023-02-27"
+date: '2023-02-27'
 excerpt: >-
-  Failing at something sucks. It doesn't feel good....
+  Failing at something sucks. It doesn't feel good.......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

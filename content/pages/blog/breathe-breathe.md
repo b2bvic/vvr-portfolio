@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Breathe, BREATHE"
 colors: colors-a
-date: "2023-02-25"
+date: '2023-02-25'
 excerpt: >-
-  ## First things first, I want you to take a deep breath....
+  ## First things first, I want you to take a deep breath.......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

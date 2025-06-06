@@ -2,9 +2,9 @@
 type: PostLayout
 title: "It's Their Job But It's Your Career"
 colors: colors-a
-date: "2023-08-20"
+date: '2023-08-20'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

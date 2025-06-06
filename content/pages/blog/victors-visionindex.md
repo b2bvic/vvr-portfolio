@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Victor's Vision_Index"
 colors: colors-a
-date: "2023-08-26"
+date: '2023-08-26'
 excerpt: >-
-  ---...
+  ---......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

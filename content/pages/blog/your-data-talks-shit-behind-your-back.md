@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Your data talks SHIT behind your back"
 colors: colors-a
-date: "2023-05-22"
+date: '2023-05-22'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

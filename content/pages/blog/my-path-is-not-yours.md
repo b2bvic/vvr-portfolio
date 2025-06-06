@@ -2,9 +2,9 @@
 type: PostLayout
 title: "My Path is Not Yours"
 colors: colors-a
-date: "2023-03-26"
+date: '2023-03-26'
 excerpt: >-
-  date:: [[2020-02-19]]...
+  date:: [[2020-02-19]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

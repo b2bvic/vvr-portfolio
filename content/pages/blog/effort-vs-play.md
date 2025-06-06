@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Effort vs. Play"
 colors: colors-a
-date: "2023-02-23"
+date: '2023-02-23'
 excerpt: >-
-  date:: [[2018-07-11]]...
+  date:: [[2018-07-11]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

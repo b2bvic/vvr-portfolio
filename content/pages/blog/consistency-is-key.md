@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Consistency is key"
 colors: colors-a
-date: "2023-08-01"
+date: '2023-08-01'
 excerpt: >-
-  date:: [[2018-12-13]]...
+  date:: [[2018-12-13]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

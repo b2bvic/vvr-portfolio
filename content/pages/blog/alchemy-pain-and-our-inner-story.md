@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Alchemy, Pain, and our Inner-Story"
 colors: colors-a
-date: "2024-02-29"
+date: '2024-02-29'
 excerpt: >-
-  date:: [[2019-08-21]]...
+  date:: [[2019-08-21]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

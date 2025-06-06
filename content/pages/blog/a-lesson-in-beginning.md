@@ -2,9 +2,9 @@
 type: PostLayout
 title: "A lesson in beginning"
 colors: colors-a
-date: "2023-10-17"
+date: '2023-10-17'
 excerpt: >-
-  ## I am writing this because I was inspired to begin....
+  ## I am writing this because I was inspired to begin.......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

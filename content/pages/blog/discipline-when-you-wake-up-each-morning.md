@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Discipline - When You Wake Up Each Morning"
 colors: colors-a
-date: "2023-07-10"
+date: '2023-07-10'
 excerpt: >-
-  #### Discipline is nothing more than repetition of action....
+  #### Discipline is nothing more than repetition of action.......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

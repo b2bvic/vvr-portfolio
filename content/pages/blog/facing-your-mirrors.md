@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Facing Your Mirrors"
 colors: colors-a
-date: "2023-04-24"
+date: '2023-04-24'
 excerpt: >-
-  date:: [[2018-07-06]]...
+  date:: [[2018-07-06]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

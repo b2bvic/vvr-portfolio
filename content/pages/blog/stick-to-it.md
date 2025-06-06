@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Stick to It"
 colors: colors-a
-date: "2023-05-06"
+date: '2023-05-06'
 excerpt: >-
-  date:: [[2020-08-09]]...
+  date:: [[2020-08-09]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

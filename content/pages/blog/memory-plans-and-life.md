@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Memory, Plans, and Li(f)e"
 colors: colors-a
-date: "2023-03-22"
+date: '2023-03-22'
 excerpt: >-
-  date: [[2018-09-17]]...
+  date: [[2018-09-17]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

@@ -2,9 +2,9 @@
 type: PostLayout
 title: "No two people have seen the same Google"
 colors: colors-a
-date: "2023-08-01"
+date: '2023-08-01'
 excerpt: >-
-  No two people have seen the same Google....
+  No two people have seen the same Google.......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

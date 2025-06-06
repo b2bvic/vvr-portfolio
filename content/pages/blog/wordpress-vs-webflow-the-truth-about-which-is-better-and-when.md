@@ -2,9 +2,9 @@
 type: PostLayout
 title: "WordPress vs. Webflow - The Truth About Which Is Better, And When"
 colors: colors-a
-date: "2023-02-10"
+date: '2023-02-10'
 excerpt: >-
-  ---...
+  ---......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

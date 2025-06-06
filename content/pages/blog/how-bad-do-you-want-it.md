@@ -2,9 +2,9 @@
 type: PostLayout
 title: "How bad do you want it"
 colors: colors-a
-date: "2023-12-20"
+date: '2023-12-20'
 excerpt: >-
-  date:: [[2018-08-08]]...
+  date:: [[2018-08-08]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

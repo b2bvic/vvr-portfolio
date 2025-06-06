@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Learning When To Learn Soft Skills"
 colors: colors-a
-date: "2023-10-22"
+date: '2023-10-22'
 excerpt: >-
-  The last few weeks have required me to invest quite a bit of time into developing soft skills....
+  The last few weeks have required me to invest quite a bit of time into developing soft skills.......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

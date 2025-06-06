@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Take Your I Out"
 colors: colors-a
-date: "2024-02-29"
+date: '2024-02-29'
 excerpt: >-
-  date: [[2020-08-27]]...
+  date: [[2020-08-27]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

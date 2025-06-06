@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Becoming a 'Brand' New Person"
 colors: colors-a
-date: "2024-05-02"
+date: '2024-05-02'
 excerpt: >-
-  ## The Case For Marketing Yourself...
+  ## The Case For Marketing Yourself......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

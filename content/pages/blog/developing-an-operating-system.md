@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Developing an 'Operating' System...."
 colors: colors-a
-date: "2023-10-02"
+date: '2023-10-02'
 excerpt: >-
-  date:: [[2020-08-17]]...
+  date:: [[2020-08-17]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

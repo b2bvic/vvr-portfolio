@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Discipline shows in your action & lack of it"
 colors: colors-a
-date: "2023-05-08"
+date: '2023-05-08'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

@@ -2,9 +2,9 @@
 type: PostLayout
 title: "A quick update…"
 colors: colors-a
-date: "2024-04-25"
+date: '2024-04-25'
 excerpt: >-
-  date:: [[2020-03-27]]...
+  date:: [[2020-03-27]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

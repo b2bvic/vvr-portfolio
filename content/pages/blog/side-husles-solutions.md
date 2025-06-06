@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Side-Husles & Solutions"
 colors: colors-a
-date: "2023-05-02"
+date: '2023-05-02'
 excerpt: >-
-  date:: [[2019-09-03]]...
+  date:: [[2019-09-03]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

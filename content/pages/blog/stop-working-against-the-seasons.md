@@ -2,9 +2,9 @@
 type: PostLayout
 title: "STOP Working Against The Seasons"
 colors: colors-a
-date: "2023-06-13"
+date: '2023-06-13'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

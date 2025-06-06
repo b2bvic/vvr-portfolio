@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Reflection of Your Source"
 colors: colors-a
-date: "2023-10-10"
+date: '2023-10-10'
 excerpt: >-
-  date:: [[2021-03-10]]...
+  date:: [[2021-03-10]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

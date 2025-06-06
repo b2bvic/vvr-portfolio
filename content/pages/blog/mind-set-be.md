@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Mind, Set, Be"
 colors: colors-a
-date: "2023-06-28"
+date: '2023-06-28'
 excerpt: >-
-  date:: [[2018-07-06]]...
+  date:: [[2018-07-06]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

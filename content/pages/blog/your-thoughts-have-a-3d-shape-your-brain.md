@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Your Thoughts Have a 3D Shape (Your Brain)"
 colors: colors-a
-date: "2023-05-18"
+date: '2023-05-18'
 excerpt: >-
-  [[2023-03-01]]...
+  [[2023-03-01]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

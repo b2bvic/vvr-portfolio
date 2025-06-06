@@ -2,9 +2,9 @@
 type: PostLayout
 title: "If you feel like a failure, read this..."
 colors: colors-a
-date: "2023-11-12"
+date: '2023-11-12'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

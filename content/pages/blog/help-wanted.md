@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Help Wanted"
 colors: colors-a
-date: "2023-02-11"
+date: '2023-02-11'
 excerpt: >-
-  date:: [[2019-12-03]]...
+  date:: [[2019-12-03]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

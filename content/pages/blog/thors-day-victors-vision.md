@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Thor's Day - Victor's Vision"
 colors: colors-a
-date: "2023-06-09"
+date: '2023-06-09'
 excerpt: >-
-  tags:: #👁...
+  tags:: #👁......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

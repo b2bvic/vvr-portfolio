@@ -2,9 +2,9 @@
 type: PostLayout
 title: "STEAL this content"
 colors: colors-a
-date: "2023-06-05"
+date: '2023-06-05'
 excerpt: >-
-  https://roberto.digital/newsletter/issues/...
+  https://roberto.digital/newsletter/issues/......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

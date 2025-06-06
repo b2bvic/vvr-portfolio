@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Challenge & Self"
 colors: colors-a
-date: "2023-04-02"
+date: '2023-04-02'
 excerpt: >-
-  date:: [[2020-08-04]]...
+  date:: [[2020-08-04]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

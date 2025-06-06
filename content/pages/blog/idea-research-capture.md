@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Idea, Research, Capture"
 colors: colors-a
-date: "2023-05-07"
+date: '2023-05-07'
 excerpt: >-
-  **Idea? Research. Capture!...
+  **Idea? Research. Capture!......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

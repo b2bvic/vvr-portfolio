@@ -2,9 +2,9 @@
 type: PostLayout
 title: "What It Means To 'Be"
 colors: colors-a
-date: "2024-02-23"
+date: '2024-02-23'
 excerpt: >-
-  date:: [[2018-07-18]]...
+  date:: [[2018-07-18]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

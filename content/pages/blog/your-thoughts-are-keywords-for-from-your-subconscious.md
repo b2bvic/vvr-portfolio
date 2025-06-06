@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Your Thoughts Are Keywords For & From Your Subconscious"
 colors: colors-a
-date: "2023-02-25"
+date: '2023-02-25'
 excerpt: >-
-  Your thoughts operate as keywords do....
+  Your thoughts operate as keywords do.......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

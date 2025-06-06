@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Character or Charicature"
 colors: colors-a
-date: "2023-05-11"
+date: '2023-05-11'
 excerpt: >-
-  date:: [[2019-09-01]]...
+  date:: [[2019-09-01]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

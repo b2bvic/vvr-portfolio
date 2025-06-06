@@ -2,9 +2,9 @@
 type: PostLayout
 title: "3 Steps to Success for Your 1st Attempt"
 colors: colors-a
-date: "2023-01-02"
+date: '2023-01-02'
 excerpt: >-
-  _When we attempt a new skill, there is a habit for people to get too ‘caught up’ in overthinking an action. Let’s cover the system I use when attempti...
+  _When we attempt a new skill, there is a habit for people to get too ‘caught up’ in overthinking an action. Let’s cover the system I use when attempti......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

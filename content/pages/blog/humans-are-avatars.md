@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Humans Are Avatars"
 colors: colors-a
-date: "2023-05-19"
+date: '2023-05-19'
 excerpt: >-
-  date:: [[2020-08-06]]...
+  date:: [[2020-08-06]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

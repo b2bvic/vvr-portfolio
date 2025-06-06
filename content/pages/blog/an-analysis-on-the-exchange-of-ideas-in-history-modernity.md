@@ -2,9 +2,9 @@
 type: PostLayout
 title: "An Analysis on the Exchange of Ideas in History & Modernity"
 colors: colors-a
-date: "2024-01-03"
+date: '2024-01-03'
 excerpt: >-
-  #### _Anonymity throughout history meant nothing more than simply not sharing your name, or wearing a mask._...
+  #### _Anonymity throughout history meant nothing more than simply not sharing your name, or wearing a mask._......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

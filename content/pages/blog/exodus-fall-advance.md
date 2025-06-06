@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Exodus - Fall Advance"
 colors: colors-a
-date: "2023-11-01"
+date: '2023-11-01'
 excerpt: >-
-  **Lessons from the Fall Advance...
+  **Lessons from the Fall Advance......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

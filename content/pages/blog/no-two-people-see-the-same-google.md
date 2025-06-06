@@ -2,9 +2,9 @@
 type: PostLayout
 title: "No Two People See The Same Google"
 colors: colors-a
-date: "2023-05-30"
+date: '2023-05-30'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

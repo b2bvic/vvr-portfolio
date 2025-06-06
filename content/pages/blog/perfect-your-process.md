@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Perfect Your Process"
 colors: colors-a
-date: "2023-11-27"
+date: '2023-11-27'
 excerpt: >-
-  date: [[2022-08-18]]...
+  date: [[2022-08-18]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

@@ -2,9 +2,9 @@
 type: PostLayout
 title: "What do the seers see"
 colors: colors-a
-date: "2023-10-20"
+date: '2023-10-20'
 excerpt: >-
-  date:: [[2020-08-20]]...
+  date:: [[2020-08-20]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

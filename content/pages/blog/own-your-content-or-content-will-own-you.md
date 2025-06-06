@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Own Your Content Or Content Will Own You"
 colors: colors-a
-date: "2023-10-06"
+date: '2023-10-06'
 excerpt: >-
-  This iis the warning against having a company 'build' your website and lock it from you....
+  This iis the warning against having a company 'build' your website and lock it from you.......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

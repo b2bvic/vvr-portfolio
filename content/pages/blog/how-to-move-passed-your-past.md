@@ -2,9 +2,9 @@
 type: PostLayout
 title: "How to move PASSED your PAST"
 colors: colors-a
-date: "2024-03-20"
+date: '2024-03-20'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

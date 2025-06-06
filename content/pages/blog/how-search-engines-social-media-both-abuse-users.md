@@ -2,9 +2,9 @@
 type: PostLayout
 title: "How Search Engines & Social Media Both Abuse Users"
 colors: colors-a
-date: "2023-01-16"
+date: '2023-01-16'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

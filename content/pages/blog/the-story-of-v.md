@@ -2,9 +2,9 @@
 type: PostLayout
 title: "The Story of V"
 colors: colors-a
-date: "2023-01-23"
+date: '2023-01-23'
 excerpt: >-
-  date:: [[2019-12-02]]...
+  date:: [[2019-12-02]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

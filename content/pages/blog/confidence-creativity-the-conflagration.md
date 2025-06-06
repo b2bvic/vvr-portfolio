@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Confidence, Creativity, & the Conflagration"
 colors: colors-a
-date: "2023-02-04"
+date: '2023-02-04'
 excerpt: >-
-  ## Stoking The Flame of Creativity...
+  ## Stoking The Flame of Creativity......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

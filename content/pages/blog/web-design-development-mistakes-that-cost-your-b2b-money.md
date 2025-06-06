@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Web Design & Development Mistakes That Cost Your B2B Money"
 colors: colors-a
-date: "2023-03-27"
+date: '2023-03-27'
 excerpt: >-
-  # Web Design & Development Mistakes That Cost Your B2B Money...
+  # Web Design & Development Mistakes That Cost Your B2B Money......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

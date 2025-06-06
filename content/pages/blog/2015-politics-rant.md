@@ -2,9 +2,9 @@
 type: PostLayout
 title: "2015 Politics Rant"
 colors: colors-a
-date: "2023-06-02"
+date: '2023-06-02'
 excerpt: >-
-  date:: [[2018-10-15]]...
+  date:: [[2018-10-15]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

@@ -2,15 +2,15 @@
 type: PostLayout
 title: "Take (Search) Responsibility Of Your Business"
 colors: colors-a
-date: "2023-03-13"
+date: '2023-03-13'
 excerpt: >-
-  My business website works well for me on my iPhone Pro Max 14 and our clients use desktop anyway!...
+  My business website works well for me on my iPhone Pro Max 14 and our clients use desktop anyway!......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Take (Search) Responsibility Of Your Business"
-metaDescription: 'My business website works well for me on my iPhone Pro Max 14 and our clients use desktop anyway!...'
+metaDescription: "My business website works well for me on my iPhone Pro Max 14 and our clients use desktop anyway!..."
 ---
 "My business website works well for me on my iPhone Pro Max 14 and our clients use desktop anyway!"
 

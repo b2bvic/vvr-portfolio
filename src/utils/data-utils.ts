@@ -5,7 +5,7 @@ export function deepMapObject(value: any, visitorFn: VisitorFunction) {
         value = value.map((e) => {
             return deepMapObject(e, visitorFn);
         });
-    } else if (typeof value == 'object') {
+    } else if (typeof value == 'object' && value !== null) {
         const newObject = {};
         for (const [k, v] of Object.entries(value)) {
             newObject[k] = deepMapObject(v, visitorFn);

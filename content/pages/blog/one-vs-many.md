@@ -2,9 +2,9 @@
 type: PostLayout
 title: "One vs. Many"
 colors: colors-a
-date: "2023-05-16"
+date: '2023-05-16'
 excerpt: >-
-  date:: [[2018-07-07]]...
+  date:: [[2018-07-07]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

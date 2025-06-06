@@ -2,9 +2,9 @@
 type: PostLayout
 title: "The Importance Of Water On Humans And Health"
 colors: colors-a
-date: "2023-08-18"
+date: '2023-08-18'
 excerpt: >-
-  #### Water is the cradle of life for every animal and plant on Earth; too often it is regarded as something that could be done away with or replaced....
+  #### Water is the cradle of life for every animal and plant on Earth; too often it is regarded as something that could be done away with or replaced.......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

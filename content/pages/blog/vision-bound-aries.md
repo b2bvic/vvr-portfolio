@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Vision Bound - Aries"
 colors: colors-a
-date: "2023-02-15"
+date: '2023-02-15'
 excerpt: >-
-  date:: [[2018-07-23]]...
+  date:: [[2018-07-23]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

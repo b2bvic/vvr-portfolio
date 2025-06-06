@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Authenticity"
 colors: colors-a
-date: "2023-06-01"
+date: '2023-06-01'
 excerpt: >-
-  date:: [[2018-07-07]]...
+  date:: [[2018-07-07]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

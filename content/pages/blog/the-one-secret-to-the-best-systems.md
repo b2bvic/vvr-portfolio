@@ -2,9 +2,9 @@
 type: PostLayout
 title: "The ONE Secret to the Best Systems..."
 colors: colors-a
-date: "2024-03-26"
+date: '2024-03-26'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

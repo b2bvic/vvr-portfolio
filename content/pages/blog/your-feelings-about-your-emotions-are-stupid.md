@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Your feelings about your emotions are stupid"
 colors: colors-a
-date: "2024-03-25"
+date: '2024-03-25'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

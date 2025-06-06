@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Breathing as Cause & Effect 😤"
 colors: colors-a
-date: "2024-05-02"
+date: '2024-05-02'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

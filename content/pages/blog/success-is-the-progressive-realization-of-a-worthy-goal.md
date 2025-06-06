@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Success is the Progressive Realization of a Worthy Goal"
 colors: colors-a
-date: "2023-09-28"
+date: '2023-09-28'
 excerpt: >-
-  tags:: #🤝...
+  tags:: #🤝......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

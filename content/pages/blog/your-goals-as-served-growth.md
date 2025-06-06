@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Your Goals As Served Growth"
 colors: colors-a
-date: "2024-03-29"
+date: '2024-03-29'
 excerpt: >-
-  tags:: #👁...
+  tags:: #👁......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

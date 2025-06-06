@@ -2,9 +2,9 @@
 type: PostLayout
 title: "SEO is the MRI of Internet Hivemind"
 colors: colors-a
-date: "2023-01-10"
+date: '2023-01-10'
 excerpt: >-
-  # SEO is the MRI of Internet Hivemind...
+  # SEO is the MRI of Internet Hivemind......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

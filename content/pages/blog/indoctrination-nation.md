@@ -2,9 +2,9 @@
 type: PostLayout
 title: "Indoctrination, Nation"
 colors: colors-a
-date: "2023-04-25"
+date: '2023-04-25'
 excerpt: >-
-  date:: [[2020-02-19]]...
+  date:: [[2020-02-19]]......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

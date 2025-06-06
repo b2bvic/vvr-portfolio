@@ -2,9 +2,9 @@
 type: PostLayout
 title: "What It Takes To Create An Internet Brain For Your Daily Life"
 colors: colors-a
-date: "2024-02-11"
+date: '2024-02-11'
 excerpt: >-
-  The act of coming up with an internet brain is not some open secret....
+  The act of coming up with an internet brain is not some open secret.......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg

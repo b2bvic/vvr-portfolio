@@ -2,9 +2,9 @@
 type: PostLayout
 title: "The Dangers of Online Communication"
 colors: colors-a
-date: "2023-06-15"
+date: '2023-06-15'
 excerpt: >-
-  When people warn you about networking on the internet, I feel as though it is approached with an archaic mindset....
+  When people warn you about networking on the internet, I feel as though it is approached with an archaic mindset.......
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
