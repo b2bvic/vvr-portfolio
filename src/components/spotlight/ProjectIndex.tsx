@@ -57,11 +57,15 @@ export function ProjectIndex({ projects }: { projects: any[] }) {
             role="list"
             className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
           >
-            {projects.map((project) => (
-              <li key={project.slug}>
-                <Project project={project} />
-              </li>
-            ))}
+            {projects && projects.length > 0 ? (
+              projects.map((project) => (
+                <li key={project.slug}>
+                  <Project project={project} />
+                </li>
+              ))
+            ) : (
+              <li>No projects found.</li>
+            )}
           </ul>
         </div>
       </Container>

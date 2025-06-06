@@ -71,10 +71,14 @@ export function AboutLayout({ page, global }: any) {
               I&apos;m Victor Valentine Romo. I architect digital systems that drive scalable growth.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <div
-                className="prose dark:prose-invert"
-                dangerouslySetInnerHTML={{ __html: page.markdownContent }}
-              />
+              {page?.markdownContent ? (
+                <div
+                  className="prose dark:prose-invert"
+                  dangerouslySetInnerHTML={{ __html: page.markdownContent }}
+                />
+              ) : (
+                <p>Content is loading...</p>
+              )}
             </div>
           </div>
           <div className="lg:pl-20">

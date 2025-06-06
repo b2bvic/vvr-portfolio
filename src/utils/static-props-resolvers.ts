@@ -49,7 +49,8 @@ const PropsResolvers: Partial<Record<ContentObjectType, ResolverFunction>> = {
         const allPosts = getAllPostsSorted(allData);
         return {
             ...(props as PostFeedLayout),
-            items: allPosts
+            items: allPosts,
+            posts: allPosts
         };
     },
     RecentPostsSection: (props, allData) => {
@@ -75,7 +76,8 @@ const PropsResolvers: Partial<Record<ContentObjectType, ResolverFunction>> = {
         const allProjects = getAllProjectsSorted(allData);
         return {
             ...(props as ProjectFeedLayout),
-            items: allProjects
+            items: allProjects,
+            projects: allProjects
         };
     },
     RecentProjectsSection: (props, allData) => {
