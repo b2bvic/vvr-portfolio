@@ -7,7 +7,7 @@ author: content/data/team/victor-romo.json
 excerpt: 'How systematic technical SEO analysis uncovered a multi-year marketing scam and the framework I use to prevent technical debt from destroying SEO performance.'
 featuredImage:
   type: ImageBlock
-  url: /images/technical-seo-audit.jpg
+  url: /images/post-1.jpg
   altText: Technical SEO audit dashboard and analysis
 metaTitle: 'Technical SEO Audit Framework: Preventing $350k Disasters - Victor Valentine Romo'
 metaDescription: 'The systematic technical SEO audit framework that uncovered a marketing scam and prevents technical debt from destroying search performance.'

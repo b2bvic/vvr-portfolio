@@ -8,7 +8,7 @@ description: >-
   As Founder & Search Consultant, developed systematic SEO solutions that solve site problems preventing high rankings, helping Google connect businesses with their best customers through strategic search optimization.
 featuredImage:
   type: ImageBlock
-  url: /images/scale-with-search-systematic-approach.jpg
+  url: /images/project-seo.jpg
   altText: Scale With Search systematic SEO solution framework
 media:
   type: ImageBlock

@@ -14,7 +14,7 @@ author: content/data/team/victor-romo.json
 excerpt: 'The systematic approach I developed to leverage large language models for SEO work that scales without breaking—and why most people are using AI wrong for content optimization.'
 featuredImage:
   type: ImageBlock
-  url: /images/ai-seo-automation.jpg
+  url: /images/post-4.png
   altText: AI workflow diagram for SEO automation
 metaTitle: 'AI SEO Automation: 3x Output Without Quality Loss - Victor Valentine Romo'
 metaDescription: 'Learn the systematic approach to using AI for SEO that multiplies output while maintaining quality standards.'

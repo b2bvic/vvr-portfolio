@@ -7,7 +7,7 @@ author: content/data/team/victor-romo.json
 excerpt: 'Why 80% of website migrations lose traffic and the systematic framework I use to ensure migrations actually improve SEO performance instead of destroying it.'
 featuredImage:
   type: ImageBlock
-  url: /images/website-migration-framework.jpg
+  url: /images/post-2.jpg
   altText: Website migration planning and execution dashboard
 metaTitle: 'Website Migration SEO Framework: Preventing Traffic Loss - Victor Valentine Romo'
 metaDescription: 'The systematic approach to website migrations that prevents traffic loss and actually improves SEO performance through proper planning and execution.'

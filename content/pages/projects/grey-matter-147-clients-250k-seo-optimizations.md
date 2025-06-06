@@ -8,11 +8,11 @@ description: >-
   As SEO Manager, developed systematic processes to manage 147 clients over 18 months, personally executing 250,000+ technical optimizations while building SOPs that enabled team scaling and AI-powered workflow optimization.
 featuredImage:
   type: ImageBlock
-  url: /images/grey-matter-seo-operations.jpg
+  url: /images/project-greymatter.jpg
   altText: Grey Matter SEO client management dashboard
 media:
   type: ImageBlock
-  url: /images/grey-matter-sop-framework.jpg
+  url: /images/featured-Image1.jpg
   altText: Grey Matter systematic SEO processes and training framework
 metaTitle: 'Grey Matter SEO Manager: 147 Clients & AI-Powered Operations - Victor Valentine Romo'
 metaDescription: 'How systematic SOPs and AI integration enabled management of 147 clients and execution of 250,000+ SEO optimizations at Grey Matter agency.'

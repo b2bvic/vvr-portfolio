@@ -5,6 +5,11 @@ import { useRouter } from 'next/router'
 import { Fragment } from 'react'
 
 import { Container } from './Container'
+import {
+    GitHubIcon,
+    LinkedInIcon,
+    XIcon,
+} from './SocialIcons'
 
 function CloseIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -195,6 +200,63 @@ function Header() {
   )
 }
 
+function Footer() {
+  return (
+    <footer className="mt-32 flex-none">
+      <Container className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
+        <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
+            <Link
+              href="/about-me"
+              className="transition hover:text-teal-500 dark:hover:text-teal-400"
+            >
+              About
+            </Link>
+            <Link
+              href="/projects"
+              className="transition hover:text-teal-500 dark:hover:text-teal-400"
+            >
+              Projects
+            </Link>
+            <Link
+              href="/blog"
+              className="transition hover:text-teal-500 dark:hover:text-teal-400"
+            >
+              Blog
+            </Link>
+          </div>
+          <div className="flex gap-6">
+            <Link
+              href="https://twitter.com/victorvalentineromo"
+              className="group -m-1 p-1"
+              aria-label="Follow on X"
+            >
+              <XIcon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+            </Link>
+            <Link
+              href="https://github.com/victorvalentineromo"
+              className="group -m-1 p-1"
+              aria-label="Follow on GitHub"
+            >
+              <GitHubIcon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+            </Link>
+            <Link
+              href="https://linkedin.com/in/victorvalentineromo"
+              className="group -m-1 p-1"
+              aria-label="Follow on LinkedIn"
+            >
+              <LinkedInIcon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+            </Link>
+          </div>
+        </div>
+        <p className="mt-6 text-center text-sm text-zinc-400 dark:text-zinc-500">
+          &copy; {new Date().getFullYear()} Victor Valentine Romo. All rights reserved.
+        </p>
+      </Container>
+    </footer>
+  )
+}
+
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
@@ -206,6 +268,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <div className="relative flex w-full flex-col">
         <Header />
         <main className="flex-auto">{children}</main>
+        <Footer />
       </div>
     </>
   )

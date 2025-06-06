@@ -8,11 +8,11 @@ description: >-
   As COO & Co-Founder, drove business growth by securing 90% of clients in 2024, resulting in 2,700% annual revenue increase through systematic SEO processes and AI-powered optimization strategies.
 featuredImage:
   type: ImageBlock
-  url: /images/found-seo-growth.jpg
+  url: /images/project-found.jpg
   altText: FOUND SEO agency revenue growth dashboard
 media:
   type: ImageBlock
-  url: /images/found-operations-system.jpg
+  url: /images/featured-Image2.jpg
   altText: FOUND systematic SEO operations framework
 metaTitle: 'FOUND COO: 2,700% Revenue Growth Through Systematic SEO - Victor Valentine Romo'
 metaDescription: 'How systematic SEO processes and AI automation drove 2,700% revenue growth as COO & Co-Founder of FOUND agency.'

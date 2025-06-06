@@ -7,7 +7,7 @@ author: content/data/team/victor-romo.json
 excerpt: 'Beyond basic file organization, this is my methodology for building Next.js projects that are maintainable, performant, and ready for future expansion from day one.'
 featuredImage:
   type: ImageBlock
-  url: /images/nextjs-architecture.jpg
+  url: /images/post-3.jpg
   altText: Next.js project structure diagram
 metaTitle: 'Next.js Project Structure: A Systematic Approach - Victor Valentine Romo'
 metaDescription: 'Learn the systematic methodology for structuring Next.js projects for maintainability, performance, and scalability from day one.'
