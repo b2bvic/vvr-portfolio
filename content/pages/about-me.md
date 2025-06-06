@@ -16,9 +16,9 @@ sections:
     title: >-
       SEO. Autodidact. Information Architect. Personal Knowledge Systems. Semantics & Syntax. Scaling Your Business Website With Search. Multi-Instrumentalist.
     subtitle: >-
-      I don't build websites. I architect the systematic digital infrastructures that drive market dominance and establish unshakeable competitive advantages.
+      Self-taught SEO innovator scaling businesses with AI-driven organic growth processes. Drove 2,700% revenue, 1,400% clicks, and audited 200+ companies across 30+ industries over my career.
 
-      Since 2013, I've been connecting the dots between search and the web, developing the frameworks that enable businesses to systematically outmaneuver their competitors and win in dynamic digital landscapes.
+      I don't build websites. I architect systematic digital infrastructures that create 2,700% revenue growth, 1,400% keyword performance increases, and manage 147+ clients through AI-powered optimization frameworks that compound value over time.
     styles:
       self:
         height: auto
@@ -61,15 +61,30 @@ sections:
 
       Over the past decade, I've founded and led three marketing departments, each achieving **eight-figure revenue milestones**:
 
-      #### Grey Matter (SEO Manager)
-      - **147 clients** managed over 18 months
-      - **250,000+ line items** of technical optimization executed personally
-      - **Systematic approaches** developed that could scale without breaking
-
-      #### FOUND (COO & Co-Founder)
+      #### REMARQ dba FOUND (COO & Co-Founder) — March 2024 - Present
       - **2,700% revenue increase** between 2023-2024
-      - **90% of clients** personally secured through systematic positioning
-      - **Systematic processes** that made right choices obvious for potential clients
+      - **Secured 90% of 2024 clients** through systematic relationship building and strategic positioning
+      - **Leveraged AI to scale SEO operations**, boosting clicks 1400% from key keywords in 12 months
+      - **Tailored strategies for 20+ industries** to market shifts and competitive landscapes
+      - **Simplified complex strategies** to lead client meetings with 90% retention rate
+
+      #### Ready Set Grow dba Grey Matter (SEO Manager) — June 2022 - February 2024
+      - **Managed SEO for 147 clients** over 18 months across diverse industries
+      - **Audited and fixed 250,000+ technical & on-page issues** in 6 months
+      - **Built SOPs and trained staff** on advanced SEO and operations
+      - **Tripled output using AI models** (GPT, Grok, Claude, etc.) without quality loss
+      - **Applied strategies across 20+ industries** including brick-and-mortar, B2B, and professional services
+
+      #### Ideamarket (Organic Search & Media Consultant) — August 2020 - February 2021
+      - **Repurposed long-form content for short-form, pre-AI**, boosting engagement 70% in 4-week interval
+      - **Streamlined SOPs, cutting process time by 300%** and improving output by 180% after 28 days
+      - **Lifted Google & YouTube rankings 2.5x** with targeted SEO across 6-month engagement
+
+      #### America's Future Foundation (Board Member & Head of Search) — August 2020 - June 2021
+      - **Hosted events to boost local SEO and visibility**, growing event attendance by 80%
+      - **Created multimedia content for better on-page engagement**
+      - **Partnered with businesses for high-quality backlinks**
+      - **Optimized event pages for keyword trends**
 
       ### The Autodidact's Advantage
 

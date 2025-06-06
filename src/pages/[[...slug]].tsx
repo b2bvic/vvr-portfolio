@@ -154,32 +154,32 @@ function Role({ role }: { role: any }) {
 function Resume() {
   let resume = [
     {
-      company: 'FOUND',
+      company: 'REMARQ dba FOUND',
       title: 'COO & Co-Founder',
       logo: 'F',
-      start: '2023',
-      end: '2024',
+      start: '2024',
+      end: 'Present',
     },
     {
-      company: 'Grey Matter',
+      company: 'Ready Set Grow dba Grey Matter',
       title: 'SEO Manager',
       logo: 'G',
       start: '2022',
-      end: '2023',
+      end: '2024',
     },
     {
-      company: 'Independent Consultant',
-      title: 'SEO Architect',
-      logo: 'C',
-      start: '2019',
-      end: '2022',
+      company: 'Ideamarket',
+      title: 'Organic Search Consultant',
+      logo: 'I',
+      start: '2020',
+      end: '2021',
     },
     {
-      company: 'Various Agencies',
-      title: 'SEO Specialist',
-      logo: 'S',
-      start: '2013',
-      end: '2019',
+      company: 'America\'s Future Foundation',
+      title: 'Head of Search',
+      logo: 'A',
+      start: '2020',
+      end: '2021',
     },
   ]
 
@@ -229,7 +229,7 @@ function SpotlightHomepage({ posts }: { posts: any[] }) {
             </div>
           </div>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I don&apos;t just consult or manage projects; I architect and implement the comprehensive digital systems that drive scalable growth and establish market leadership. By integrating deep expertise in technical SEO, process automation, and content strategy, I solve complex business challenges with clear, systematic solutions.
+            Self-taught SEO innovator who&apos;s driven 2,700% revenue growth, managed 147 clients, and executed 250,000+ technical optimizations. I architect systematic digital infrastructures using AI-powered optimization frameworks that create compound value—like the 1,400% keyword performance increases I&apos;ve achieved across 20+ industries.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink href="https://twitter.com/victorvalentineromo" aria-label="Follow on X" icon={XIcon} />
