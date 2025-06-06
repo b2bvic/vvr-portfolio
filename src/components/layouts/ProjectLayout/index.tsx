@@ -1,7 +1,15 @@
+import classNames from 'classnames';
 import Markdown from 'markdown-to-jsx';
+import Head from 'next/head';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import * as React from 'react';
 
+import { Annotated } from '@/components/Annotated';
 import { DynamicComponent } from '@/components/components-registry';
+import ImageBlock from '@/components/molecules/ImageBlock';
+import { Container } from '@/components/spotlight/Container';
+import { Layout } from '@/components/spotlight/Layout';
 import { PageComponentProps, ProjectLayout } from '@/types';
 import HighlightedPreBlock from '@/utils/highlighted-markdown';
 
@@ -53,7 +61,7 @@ const Component: React.FC<ComponentProps> = (props) => {
         <Layout>
             <Head>
                 <title>{title} - Victor Valentine Romo</title>
-                <meta name="description" content={description || props.excerpt} />
+                <meta name="description" content={description || ''} />
             </Head>
             <Container className="mt-16 lg:mt-32">
                 <div className="xl:relative">

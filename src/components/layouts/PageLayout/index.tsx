@@ -51,7 +51,7 @@ function MailIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 const Component: React.FC<ComponentProps> = (props) => {
-    const { sections = [], title, markdownContent } = props;
+    const { sections = [], title } = props;
 
     // Check if this is the About page
     if (props.__metadata?.urlPath === '/about-me') {
@@ -80,10 +80,14 @@ const Component: React.FC<ComponentProps> = (props) => {
                                 I&apos;m Victor Valentine Romo. I architect digital systems that drive scalable growth.
                             </h1>
                             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-                                <div
-                                    className="prose dark:prose-invert"
-                                    dangerouslySetInnerHTML={{ __html: markdownContent }}
-                                />
+                                <p>
+                                    I combine technical expertise with strategic thinking to architect solutions that scale. 
+                                    My approach focuses on sustainable growth through systematic optimization and intelligent automation.
+                                </p>
+                                <p>
+                                    With deep experience in full-stack development, SEO systematization, and business process optimization, 
+                                    I help organizations build robust digital infrastructures that drive measurable results.
+                                </p>
                             </div>
                         </div>
                         <div className="lg:pl-20">
@@ -123,11 +127,7 @@ const Component: React.FC<ComponentProps> = (props) => {
                     <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
                         {title}
                     </h1>
-                    {markdownContent && (
-                        <div className="mt-6 prose dark:prose-invert">
-                            <div dangerouslySetInnerHTML={{ __html: markdownContent }} />
-                        </div>
-                    )}
+
                 </div>
                 {sections.map((section, index) => {
                     return <DynamicComponent key={index} {...section} />;
