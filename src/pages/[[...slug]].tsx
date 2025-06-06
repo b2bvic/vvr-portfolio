@@ -194,7 +194,7 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="/about" variant="secondary" className="group mt-6 w-full">
+      <Button href="/about-me" variant="secondary" className="group mt-6 w-full">
         View Full Background
       </Button>
     </div>
