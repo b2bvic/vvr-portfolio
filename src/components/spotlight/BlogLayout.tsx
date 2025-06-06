@@ -1,7 +1,8 @@
 import Markdown from 'markdown-to-jsx'
-import Head from 'next/head'
 import { useRouter } from 'next/router'
 
+import { SEOHead } from '@/components/SEOHead'
+import { SocialShare } from '@/components/SocialShare'
 import { formatDate } from '@/utils/date'
 import { Container } from './Container'
 import { Layout } from './Layout'
@@ -23,14 +24,18 @@ export function BlogLayout(props: any) {
   let router = useRouter()
   
   // Extract the data from props - the component receives props directly
-  const { title, date, excerpt, markdownContent, global } = props
+  const { title, date, excerpt, markdownContent, featuredImage, global } = props
 
   return (
     <Layout>
-      <Head>
-        <title>{title ? `${title} - Victor Valentine Romo` : 'Victor Valentine Romo'}</title>
-        <meta name="description" content={excerpt || 'Personal insights and reflections'} />
-      </Head>
+      <SEOHead
+        title={title ? `${title} - Victor Valentine Romo` : 'Victor Valentine Romo'}
+        description={excerpt || 'Personal insights and reflections on SEO, digital systems, and growth strategies'}
+        type="article"
+        publishedTime={date}
+        ogImage={featuredImage?.url}
+        author="Victor Valentine Romo"
+      />
       <Container className="mt-16 lg:mt-32">
         <div className="xl:relative">
           <div className="mx-auto max-w-2xl">
@@ -69,6 +74,13 @@ export function BlogLayout(props: any) {
                   <p>Content is loading...</p>
                 </div>
               )}
+              
+              <SocialShare
+                url={`https://victorvalentineromo.com${router.asPath}`}
+                title={title || 'Untitled'}
+                description={excerpt}
+                hashtags={['SEO', 'DigitalMarketing', 'TechnicalSEO', 'GrowthStrategy']}
+              />
             </article>
           </div>
         </div>

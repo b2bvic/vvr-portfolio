@@ -1,5 +1,4 @@
-import Head from 'next/head'
-
+import { SEOHead } from '@/components/SEOHead'
 import { formatDate } from '@/utils/date'
 import { Card } from './Card'
 import { Container } from './Container'
@@ -23,13 +22,11 @@ function Article({ article }: { article: any }) {
 export function BlogIndex({ posts }: { posts: any[] }) {
   return (
     <Layout>
-      <Head>
-        <title>Blog - Victor Valentine Romo</title>
-        <meta
-          name="description"
-          content="Articles on SEO, system architecture, and growth strategies by Victor Valentine Romo."
-        />
-      </Head>
+      <SEOHead
+        title="Blog - Victor Valentine Romo"
+        description="Articles on SEO, system architecture, and growth strategies by Victor Valentine Romo. Insights and practical approaches to building scalable digital systems, optimizing for search engines, and implementing sustainable growth strategies."
+        type="website"
+      />
       <Container className="mt-16 sm:mt-32">
         <header className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
