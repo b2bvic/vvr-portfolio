@@ -1,87 +1,16 @@
 ---
 type: PostLayout
-title: 'Architecting for Scale: A System for Structuring Next.js Projects 🗂️'
+title: 'Architecting for Scale: A System for Structuring Next.js Projects'
 colors: colors-a
 date: '2024-06-03'
-author: content/data/team/victor-romo.json
-excerpt: 'Beyond basic file organization, this is my methodology for building Next.js projects that are maintainable, performant, and ready for future expansion from day one.'
+excerpt: >-
+  Beyond basic file organization, this is my methodology for building Next.js projects that are maintainable, performant, and ready for future expansion from day one.
 featuredImage:
   type: ImageBlock
-  url: /images/nextjs-architecture.jpg
+  url: /images/blog-placeholder.jpg
   altText: Next.js project structure diagram
 metaTitle: 'Next.js Project Structure: A Systematic Approach - Victor Valentine Romo'
 metaDescription: 'Learn the systematic methodology for structuring Next.js projects for maintainability, performance, and scalability from day one.'
-bottomSections:
-  - elementId: ''
-    type: RecentPostsSection
-    colors: colors-f
-    variant: variant-d
-    subtitle: Recent posts
-    showDate: true
-    showAuthor: false
-    showExcerpt: true
-    recentCount: 2
-    styles:
-      self:
-        height: auto
-        width: wide
-        padding:
-          - pt-12
-          - pb-56
-          - pr-4
-          - pl-4
-        textAlign: left
-    showFeaturedImage: true
-    showReadMoreLink: true
-  - type: ContactSection
-    backgroundSize: full
-    title: 'Stay up-to-date with my words ✍️'
-    colors: colors-f
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        self:
-          textAlign: center
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-24
-          - pb-24
-          - pr-4
-          - pl-4
-        flexDirection: row
-        textAlign: left
 ---
 
 Most developers approach Next.js project structure the same way they organize their desk—throw everything in folders that make sense at the moment, then spend months later trying to find anything.
@@ -200,163 +129,410 @@ Here's my standard structure that scales from MVP to enterprise:
 │   ├── robots.txt
 │   └── sitemap.xml
 ├── /src
+│   ├── /components
+│   │   ├── /layout
+│   │   ├── /ui
+│   │   ├── /features
+│   │   └── /sections
 │   ├── /pages
 │   │   ├── /api
 │   │   ├── _app.tsx
 │   │   ├── _document.tsx
-│   │   └── [[...slug]].tsx
-│   ├── /components
-│   │   ├── /layouts
-│   │   ├── /features
-│   │   ├── /ui
-│   │   └── /seo
+│   │   └── index.tsx
 │   ├── /lib
 │   │   ├── /api
-│   │   ├── /auth
-│   │   ├── /content
-│   │   ├── /seo
-│   │   └── /utils
-│   ├── /hooks
-│   ├── /types
+│   │   ├── /utils
+│   │   └── /hooks
 │   ├── /styles
-│   └── /config
-├── /content            # Content files (if using file-based CMS)
-├── /scripts           # Build and deployment scripts
-└── /docs              # Technical documentation
+│   ├── /types
+│   └── /data
+├── /content (if using file-based CMS)
+├── next.config.js
+├── tailwind.config.js
+└── tsconfig.json
 ```
 
-**Key Principles:**
+## Component Architecture: Building for Reusability and Performance
 
-1. **Feature-First Organization:** Group related functionality together rather than separating by file type
-2. **Explicit Dependencies:** Import paths should clearly indicate the relationship between modules
-3. **Single Responsibility:** Each directory should have a clear, single purpose
-4. **Scalable Naming:** Directory names should remain meaningful as the project grows
+### The Three-Tier Component Strategy
 
-## Advanced Patterns for Enterprise Applications
-
-### SEO-Native Architecture
-
-SEO considerations should be architectural, not afterthoughts:
+**Tier 1: UI Components**
+Pure, reusable components with no business logic:
 
 ```typescript
-// /src/lib/seo/meta-generator.ts
-export function generateMetaTags(page: ContentPage, site: SiteConfig) {
-  return {
-    title: page.metaTitle || `${page.title} - ${site.titleSuffix}`,
-    description: page.metaDescription || page.excerpt,
-    openGraph: {
-      title: page.metaTitle || page.title,
-      description: page.metaDescription || page.excerpt,
-      image: page.socialImage || site.defaultSocialImage,
-      url: `${site.baseUrl}${page.urlPath}`
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: page.metaTitle || page.title,
-      description: page.metaDescription || page.excerpt,
-      image: page.socialImage || site.defaultSocialImage
-    }
-  };
+// src/components/ui/Button.tsx
+interface ButtonProps {
+  variant: 'primary' | 'secondary' | 'outline'
+  size: 'sm' | 'md' | 'lg'
+  children: React.ReactNode
+  onClick?: () => void
 }
-```
 
-### Performance-First Component Architecture
-
-Structure components to optimize for Core Web Vitals:
-
-```typescript
-// /src/components/features/ProjectGallery/index.tsx
-import dynamic from 'next/dynamic';
-import { ProjectGalleryProps } from './types';
-import { ProjectGallerySkeleton } from './Skeleton';
-
-// Lazy load heavy components
-const ProjectGalleryGrid = dynamic(
-  () => import('./ProjectGalleryGrid'),
-  {
-    loading: () => <ProjectGallerySkeleton />,
-    ssr: false
-  }
-);
-
-export function ProjectGallery({ projects, ...props }: ProjectGalleryProps) {
+export function Button({ variant, size, children, onClick }: ButtonProps) {
   return (
-    <section className="project-gallery">
-      <ProjectGalleryGrid projects={projects} {...props} />
-    </section>
-  );
+    <button
+      className={cn(baseStyles, variants[variant], sizes[size])}
+      onClick={onClick}
+    >
+      {children}
+    </button>
+  )
 }
 ```
 
-### Systematic API Organization
+**Tier 2: Feature Components**
+Business logic combined with UI components:
 
-Structure API routes for maintainability and performance:
+```typescript
+// src/components/features/PostCard.tsx
+interface PostCardProps {
+  post: Post
+  onRead: (postId: string) => void
+}
+
+export function PostCard({ post, onRead }: PostCardProps) {
+  const { title, excerpt, date, readTime } = post
+
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>{title}</CardTitle>
+        <CardMeta date={date} readTime={readTime} />
+      </CardHeader>
+      <CardContent>
+        <p>{excerpt}</p>
+      </CardContent>
+      <CardFooter>
+        <Button onClick={() => onRead(post.id)}>
+          Read More
+        </Button>
+      </CardFooter>
+    </Card>
+  )
+}
+```
+
+**Tier 3: Section Components**
+Layout and composition components:
+
+```typescript
+// src/components/sections/PostsSection.tsx
+interface PostsSectionProps {
+  posts: Post[]
+  title: string
+  layout?: 'grid' | 'list'
+}
+
+export function PostsSection({ posts, title, layout = 'grid' }: PostsSectionProps) {
+  const [readPost] = useReadPost()
+
+  return (
+    <Section>
+      <SectionHeader>
+        <SectionTitle>{title}</SectionTitle>
+      </SectionHeader>
+      <SectionContent layout={layout}>
+        {posts.map(post => (
+          <PostCard key={post.id} post={post} onRead={readPost} />
+        ))}
+      </SectionContent>
+    </Section>
+  )
+}
+```
+
+## API Architecture: Systematic Data Flow
+
+### API Route Organization
 
 ```
 /src/pages/api
 ├── /auth
 │   ├── login.ts
-│   ├── logout.ts
+│   ├── register.ts
 │   └── refresh.ts
-├── /content
-│   ├── /[...slug].ts    # Dynamic content API
-│   └── sitemap.ts       # Sitemap generation
-├── /admin
-│   └── /[...adminApi].ts
-└── health.ts            # Health check endpoint
+├── /users
+│   ├── index.ts          # GET /api/users
+│   ├── [id].ts           # GET/PUT/DELETE /api/users/[id]
+│   └── [id]/posts.ts     # GET /api/users/[id]/posts
+├── /posts
+│   ├── index.ts
+│   ├── [id].ts
+│   └── [id]/comments.ts
+└── /admin
+    ├── analytics.ts
+    └── system-health.ts
 ```
 
-## Results: Measuring Architectural Success
+### Systematic Error Handling
 
-Track these metrics to validate your architectural decisions:
+```typescript
+// src/lib/api/error-handler.ts
+export function withErrorHandler(handler: NextApiHandler): NextApiHandler {
+  return async (req, res) => {
+    try {
+      await handler(req, res);
+    } catch (error) {
+      const errorResponse = createErrorResponse(error);
+      res.status(errorResponse.status).json(errorResponse);
+    }
+  };
+}
 
-**Developer Experience Metrics:**
+// src/pages/api/posts/[id].ts
+export default withErrorHandler(async (req, res) => {
+  const { id } = req.query;
 
-- Time to implement new features (should remain consistent)
-- Bug resolution time (should decrease over time)
-- Developer onboarding time (should decrease as documentation improves)
-- Code review cycle time (should remain low)
+  switch (req.method) {
+    case 'GET':
+      const post = await getPost(id as string);
+      return res.json({ data: post });
 
-**Performance Metrics:**
+    case 'PUT':
+      const updated = await updatePost(id as string, req.body);
+      return res.json({ data: updated });
 
-- Core Web Vitals scores across all page types
-- Bundle size growth rate vs. feature growth rate
-- Time to first byte (TTFB) consistency
-- Lighthouse scores for different user journeys
+    default:
+      return res.status(405).json({ error: 'Method not allowed' });
+  }
+});
+```
 
-**Business Impact Metrics:**
+## Performance Architecture: Built-in Optimization
 
-- Feature delivery predictability
-- Development cost per feature
-- Platform reliability and uptime
-- SEO visibility growth rate
+### Systematic Code Splitting
 
-## Refinement: Systematic Architecture Evolution
+```typescript
+// src/pages/index.tsx
+import dynamic from 'next/dynamic'
 
-Architecture should evolve systematically, not reactively:
+// Critical above-the-fold components load immediately
+import { HeroSection } from '@/components/sections/HeroSection'
+import { FeaturedPosts } from '@/components/sections/FeaturedPosts'
 
-**Monthly Architecture Reviews:**
+// Below-the-fold components load when needed
+const NewsletterSection = dynamic(() => import('@/components/sections/NewsletterSection'))
+const TestimonialsSection = dynamic(() => import('@/components/sections/TestimonialsSection'))
 
-- Analyze component usage patterns and identify refactoring opportunities
-- Review API endpoint performance and optimize high-traffic routes
-- Assess bundle size trends and implement code splitting improvements
-- Evaluate developer feedback and adjust structure accordingly
+export default function HomePage({ posts }: HomePageProps) {
+  return (
+    <>
+      <HeroSection />
+      <FeaturedPosts posts={posts} />
+      <NewsletterSection />
+      <TestimonialsSection />
+    </>
+  )
+}
+```
 
-**Quarterly Strategic Assessments:**
+### Systematic State Management
 
-- Review architectural decisions against business growth and requirements changes
-- Plan major refactoring initiatives based on technical debt accumulation
-- Assess team structure alignment with codebase organization
-- Update documentation and onboarding processes
+```typescript
+// src/lib/hooks/useOptimisticUpdate.ts
+export function useOptimisticUpdate<T>(data: T[], updateFn: (item: T) => Promise<T>, keyField: keyof T = 'id') {
+  const [optimisticData, setOptimisticData] = useState(data);
 
-## The Compound Effect of Systematic Architecture
+  const update = useCallback(
+    async (item: T) => {
+      // Optimistically update
+      setOptimisticData((prev) => prev.map((i) => (i[keyField] === item[keyField] ? item : i)));
 
-The difference between ad-hoc and systematic Next.js architecture isn't visible in the first month. It's visible in month six when your team is still shipping features at the same velocity while competitors are slowing down due to technical debt.
+      try {
+        const updated = await updateFn(item);
+        setOptimisticData((prev) => prev.map((i) => (i[keyField] === updated[keyField] ? updated : i)));
+      } catch (error) {
+        // Revert on error
+        setOptimisticData(data);
+        throw error;
+      }
+    },
+    [data, updateFn, keyField]
+  );
 
-Good architecture is like compound interest—the benefits accelerate over time. Bad architecture is like technical debt—the costs accelerate even faster.
+  return { data: optimisticData, update };
+}
+```
 
-The systematic approach I've outlined here has enabled teams to scale from MVP to enterprise applications without the typical architectural rewrites. More importantly, it creates a development environment where the right choices are obvious and the wrong choices are difficult.
+## SEO Architecture: Systematic Optimization
 
-This isn't about following a rigid template. It's about understanding the principles that create sustainable, scalable Next.js applications and applying them systematically to your specific context.
+### Dynamic Meta Tag Generation
 
-The goal isn't perfect architecture—it's architecture that enables your team to build exceptional products without fighting the codebase.
+```typescript
+// src/lib/seo/meta-generator.ts
+interface MetaConfig {
+  title: string;
+  description: string;
+  canonical?: string;
+  openGraph?: {
+    title: string;
+    description: string;
+    image: string;
+    type: 'website' | 'article';
+  };
+}
+
+export function generateMeta(config: MetaConfig) {
+  return {
+    title: config.title,
+    description: config.description,
+    canonical: config.canonical,
+    openGraph: {
+      title: config.openGraph?.title || config.title,
+      description: config.openGraph?.description || config.description,
+      image: config.openGraph?.image,
+      type: config.openGraph?.type || 'website'
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: config.openGraph?.title || config.title,
+      description: config.openGraph?.description || config.description,
+      image: config.openGraph?.image
+    }
+  };
+}
+
+// src/pages/posts/[slug].tsx
+export async function getStaticProps({ params }) {
+  const post = await getPost(params.slug);
+
+  const meta = generateMeta({
+    title: `${post.title} - Your Site Name`,
+    description: post.excerpt,
+    canonical: `https://yoursite.com/posts/${post.slug}`,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      image: post.featuredImage,
+      type: 'article'
+    }
+  });
+
+  return { props: { post, meta } };
+}
+```
+
+## Development Workflow: Systematic Quality Control
+
+### TypeScript Configuration for Scale
+
+```json
+// tsconfig.json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/lib/*": ["./src/lib/*"],
+      "@/types/*": ["./src/types/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
+```
+
+### Systematic Linting and Formatting
+
+```json
+// .eslintrc.json
+{
+  "extends": ["next/core-web-vitals", "@typescript-eslint/recommended"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/prefer-const": "error",
+    "prefer-const": "off"
+  }
+}
+```
+
+## Deployment Architecture: Performance and Reliability
+
+### Environment Configuration
+
+```javascript
+// next.config.js
+const nextConfig = {
+  output: 'standalone',
+  poweredByHeader: false,
+
+  images: {
+    domains: ['yourdomain.com'],
+    formats: ['image/webp', 'image/avif']
+  },
+
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY'
+          },
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff'
+          }
+        ]
+      }
+    ];
+  },
+
+  async redirects() {
+    return [
+      {
+        source: '/old-path',
+        destination: '/new-path',
+        permanent: true
+      }
+    ];
+  }
+};
+
+module.exports = nextConfig;
+```
+
+### Performance Monitoring Integration
+
+```typescript
+// src/lib/monitoring/performance.ts
+export function reportWebVitals({ id, name, value }: any) {
+  // Send to analytics
+  if (typeof window !== 'undefined') {
+    gtag('event', name, {
+      event_category: 'Web Vitals',
+      event_label: id,
+      value: Math.round(name === 'CLS' ? value * 1000 : value),
+      non_interaction: true
+    });
+  }
+}
+
+// src/pages/_app.tsx
+export { reportWebVitals };
+```
+
+## The Long-Term Advantage: Systematic Scalability
+
+This systematic approach to Next.js architecture creates compound advantages:
+
+**Development Velocity Increases Over Time:**
+Well-structured projects become easier to work with as they grow, not harder.
+
+**Performance Remains Consistent:**
+Built-in optimization patterns prevent performance degradation as features are added.
+
+**Team Productivity Scales:**
+New developers can contribute effectively because the structure guides correct implementations.
+
+**Business Agility Improves:**
+Systematic architecture enables rapid feature development and reliable delivery timelines.
+
+The goal isn't perfect architecture from day one—it's systematic architecture that evolves gracefully as requirements change and complexity increases.
+
+This approach has enabled me to deliver enterprise-grade Next.js applications that maintain high performance and development velocity even as they scale to handle millions of users and dozens of developers.
