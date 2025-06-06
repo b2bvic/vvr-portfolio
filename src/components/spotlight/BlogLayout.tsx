@@ -19,14 +19,17 @@ function ArrowLeftIcon(props: React.SVGProps<SVGSVGElement>) {
   )
 }
 
-export function BlogLayout({ page, global }: any) {
+export function BlogLayout(props: any) {
   let router = useRouter()
+  
+  // Extract the data from props - the component receives props directly
+  const { title, date, excerpt, markdownContent, global } = props
 
   return (
     <Layout>
       <Head>
-        <title>{page?.title ? `${page.title} - Victor Valentine Romo` : 'Victor Valentine Romo'}</title>
-        <meta name="description" content={page?.excerpt || page?.seo?.description || 'Personal insights and reflections'} />
+        <title>{title ? `${title} - Victor Valentine Romo` : 'Victor Valentine Romo'}</title>
+        <meta name="description" content={excerpt || 'Personal insights and reflections'} />
       </Head>
       <Container className="mt-16 lg:mt-32">
         <div className="xl:relative">
@@ -42,24 +45,24 @@ export function BlogLayout({ page, global }: any) {
             <article>
               <header className="flex flex-col">
                 <h1 className="mt-6 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-                  {page?.title || 'Untitled'}
+                  {title || 'Untitled'}
                 </h1>
-                {page?.date && (
+                {date && (
                   <time
-                    dateTime={page.date}
+                    dateTime={date}
                     className="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500"
                   >
                     <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" />
-                    <span className="ml-3">{formatDate(page.date)}</span>
+                    <span className="ml-3">{formatDate(date)}</span>
                   </time>
                 )}
               </header>
-              {page?.markdownContent ? (
+              {markdownContent ? (
                 <Markdown
                   options={{ forceBlock: true, forceWrapper: true }}
                   className="mt-8 prose prose-zinc dark:prose-invert max-w-none prose-lg"
                 >
-                  {page.markdownContent}
+                  {markdownContent}
                 </Markdown>
               ) : (
                 <div className="mt-8">
