@@ -120,6 +120,90 @@ topSections:
           - pl-4
         flexDirection: row
         textAlign: left
+  - type: FeaturedItemsSection
+    title: 'Recent Project Case Studies'
+    subtitle: 'Detailed case studies showcasing strategic SEO implementations and measurable business results'
+    colors: colors-f
+    items:
+      - type: FeaturedItem
+        title: 'FOUND: 2,700% Revenue Growth'
+        subtitle: 'COO & Co-Founder Strategic Leadership'
+        text: 'Systematic client acquisition and operational scaling that delivered unprecedented revenue growth through strategic positioning and AI-powered SEO operations.'
+        actions:
+          - type: Button
+            label: View Case Study
+            url: '/projects/found-coo-2700-percent-revenue-growth'
+            style: secondary
+        featuredImage:
+          type: ImageBlock
+          url: /images/project-found.jpg
+          altText: FOUND revenue growth case study
+        styles:
+          self:
+            textAlign: center
+      - type: FeaturedItem
+        title: 'Limitless Chiropractic: Local SEO Breakthrough'
+        subtitle: 'Technical SEO Strategy & Implementation'
+        text: 'Strategic technical SEO implementation that broke through traffic plateaus for Austin-based chiropractor, delivering 35.78% click increase within one month.'
+        actions:
+          - type: Button
+            label: View Case Study
+            url: '/projects/limitless-chiro-atx-local-seo-strategy'
+            style: secondary
+        featuredImage:
+          type: ImageBlock
+          url: /images/project-seo.jpg
+          altText: Limitless Chiropractic SEO results
+        styles:
+          self:
+            textAlign: center
+      - type: FeaturedItem
+        title: 'Wolf Fit: Rapid Website Development'
+        subtitle: 'Webflow Build & Business Launch'
+        text: 'Custom Webflow website development that delivered immediate business impact for Raleigh personal training startup, achieving 200% traffic increase and 3% conversion rate.'
+        actions:
+          - type: Button
+            label: View Case Study
+            url: '/projects/wolf-fit-website-rapid-business-growth'
+            style: secondary
+        featuredImage:
+          type: ImageBlock
+          url: /images/project-found.jpg
+          altText: Wolf Fit website development
+        styles:
+          self:
+            textAlign: center
+      - type: FeaturedItem
+        title: 'Raleigh SEO Market Analysis'
+        subtitle: 'Competitive Intelligence & Strategy'
+        text: 'Comprehensive competitive analysis of Raleigh SEO market, identifying strategic opportunities for businesses to dominate local search results.'
+        actions:
+          - type: Button
+            label: View Case Study
+            url: '/projects/raleigh-seo-competitive-analysis'
+            style: secondary
+        featuredImage:
+          type: ImageBlock
+          url: /images/project-greymatter.jpg
+          altText: Raleigh market analysis
+        styles:
+          self:
+            textAlign: center
+    columns: 2
+    spacingX: 16
+    spacingY: 16
+    elementId: case-studies
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-12
+          - pb-12
+          - pr-4
+          - pl-4
+        flexDirection: row
+        textAlign: left
 bottomSections:
   - type: ContactSection
     backgroundSize: full

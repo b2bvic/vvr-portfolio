@@ -1,0 +1,307 @@
+---
+type: PageLayout
+title: Website Audits
+colors: colors-a
+backgroundImage:
+  type: BackgroundImage
+  url: /images/bg2.jpg
+  backgroundSize: cover
+  backgroundPosition: center
+  backgroundRepeat: no-repeat
+  opacity: 20
+sections:
+  - type: HeroSection
+    title: Website Audits
+    subtitle: >-
+      **Uncover Your Path to Dominance**
+
+
+      Stop wondering why your website isn't performing. Our comprehensive audits reveal the hidden gaps holding you back, so you can rise to the top of search results and become the first choice for your ideal customers.
+    actions:
+      - type: Button
+        label: Get Your Audit
+        url: 'https://scalewithsearch.com/meet'
+        style: primary
+      - type: Button
+        label: View All Services
+        url: '/services'
+        style: secondary
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-16
+          - pb-16
+          - pl-4
+          - pr-4
+        flexDirection: row
+        textAlign: center
+  - type: TextSection
+    colors: colors-f
+    variant: variant-a
+    text: >
+      ## What You Get: Comprehensive Search Engine Optimization Analysis
+
+
+      We conduct a comprehensive audit of your website through our **FOUND AUDIT Dashboard**, analyzing on-page, technical, and crawlability factors that directly impact your search rankings.
+
+
+      ### Technical SEO Analysis
+
+      - **Complete sitemap optimization** — Ensure search engines can find and index all your important pages
+      - **Schema markup implementation** — Help search engines understand your content and display rich snippets
+      - **Robots meta tags optimization** — Control how search engines crawl and index your site
+      - **Core Web Vitals assessment** — Optimize loading speed, interactivity, and visual stability
+      - **Mobile responsiveness evaluation** — Ensure optimal performance across all devices
+
+
+      ### On-Page SEO Evaluation
+
+      - **Title tag and meta description optimization** — Improve click-through rates from search results
+      - **Header structure analysis** — Organize content for both users and search engines
+      - **Internal linking optimization** — Distribute page authority and improve navigation
+      - **Content gap identification** — Discover missing opportunities for keyword targeting
+      - **Image optimization review** — Reduce loading times and improve accessibility
+
+
+      ### Local SEO Optimization
+
+      - **Google My Business profile optimization** — Enhance local search visibility
+      - **Local citation analysis** — Ensure consistent NAP (Name, Address, Phone) across the web
+      - **Review management strategy** — Improve online reputation and local rankings
+      - **Local keyword tracking** — Monitor performance for location-based searches
+
+
+      ### Competitive Analysis
+
+      - **Up to 150 keyword tracking** per website — Monitor your performance against competitors
+      - **Heatmap tracking within 15-mile radius** — Understand local competition pressure
+      - **SERP position monitoring** — Track rankings for your most important keywords
+      - **Competitive gap analysis** — Identify opportunities your competitors are missing
+
+
+      ---
+
+
+      ## Who You'll Become: The Market Leader Your Customers Can't Ignore
+
+
+      **Before Our Audit:**
+      - Frustrated by inconsistent website performance
+      - Losing customers to competitors who rank higher
+      - Uncertain about why your SEO efforts aren't working
+      - Missing opportunities for local and organic growth
+
+
+      **After Our Audit:**
+      - **Clear roadmap to search dominance** — Know exactly what needs to be fixed and optimized
+      - **Competitive advantage** — Understand what your competitors are doing and how to beat them
+      - **Technical foundation** — Have a website that search engines love and users trust
+      - **Measurable results** — Track your progress with data-driven insights and monitoring
+
+
+      ### The Transformation Process
+
+      **Discovery Phase:**
+      - Comprehensive technical analysis of your current website
+      - Competitive landscape assessment in your market
+      - Local search visibility evaluation
+      - Content and keyword gap identification
+
+
+      **Analysis Phase:**
+      - Prioritized list of optimization opportunities
+      - Technical issues preventing optimal performance
+      - Content strategy recommendations
+      - Local SEO enhancement plan
+
+
+      **Strategy Phase:**
+      - Custom roadmap for search dominance
+      - Timeline for implementing improvements
+      - Resource allocation recommendations
+      - Success metrics and tracking setup
+
+
+      ---
+
+
+      ## Real-Time Monitoring & Insights
+
+
+      ### FOUND AUDIT Dashboard Access
+
+      Get ongoing visibility into your website's performance with our proprietary dashboard:
+
+      - **Real-time keyword tracking** — Monitor up to 150 keywords per website
+      - **Technical health monitoring** — Get alerts when issues arise
+      - **Local competition analysis** — 15-mile radius heatmap tracking
+      - **Performance trending** — Track improvements over time
+      - **Actionable recommendations** — Know exactly what to do next
+
+
+      ### Continuous Optimization Support
+
+      Your audit includes ongoing support to ensure sustained improvement:
+
+      - **Monthly performance reviews** — Track progress and identify new opportunities
+      - **Technical issue alerts** — Get notified immediately when problems arise
+      - **Competitive monitoring** — Stay ahead of changes in your market
+      - **Strategy refinements** — Adjust tactics based on performance data
+
+
+      ---
+
+
+      ## Investment: $3,000 (Included in SEO Setup Fee)
+
+
+      **What's Included:**
+      - Comprehensive website audit via FOUND AUDIT Dashboard
+      - Technical SEO analysis and optimization recommendations
+      - Google My Business profile optimization
+      - Up to 150 keyword tracking setup
+      - Local competition heatmap analysis (15-mile radius)
+      - Ongoing dashboard access and monitoring
+      - Detailed action plan for search dominance
+
+
+      **Why This Investment Pays Off:**
+      - **Identify high-impact improvements** — Focus efforts on changes that drive real results
+      - **Avoid costly mistakes** — Know what NOT to do based on technical analysis
+      - **Competitive intelligence** — Understand your market landscape and opportunities
+      - **Foundation for growth** — Create a technical foundation that supports all future SEO efforts
+
+
+      ### Ready to Uncover Your Path to Dominance?
+
+      Stop wondering why your website isn't performing. Get the insights you need to dominate search results and become the go-to authority in your industry.
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding:
+          - pt-12
+          - pb-12
+          - pr-4
+          - pl-4
+        textAlign: left
+  - type: FeaturedItemsSection
+    title: 'Why Choose Our Website Audits?'
+    subtitle: 'Technical excellence meets strategic business insight'
+    colors: colors-f
+    items:
+      - type: FeaturedItem
+        title: 'Proprietary Dashboard'
+        text: 'Access to FOUND AUDIT Dashboard with real-time monitoring and insights that most agencies don't provide.'
+        styles:
+          self:
+            textAlign: center
+      - type: FeaturedItem
+        title: 'Local Market Focus'
+        text: '15-mile radius heatmap tracking helps you understand and dominate your local competition.'
+        styles:
+          self:
+            textAlign: center
+      - type: FeaturedItem
+        title: 'Actionable Insights'
+        text: 'Get specific, prioritized recommendations you can implement immediately for measurable results.'
+        styles:
+          self:
+            textAlign: center
+    columns: 3
+    spacingX: 16
+    spacingY: 16
+    elementId: benefits
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-12
+          - pb-12
+          - pr-4
+          - pl-4
+        flexDirection: row
+        textAlign: left
+  - type: ContactSection
+    backgroundSize: full
+    title: "Get Your Website Audit Today \U0001F50D"
+    colors: colors-f
+    form:
+      type: FormBlock
+      elementId: audit-request-form
+      fields:
+        - name: firstName
+          label: First Name
+          hideLabel: true
+          placeholder: First Name
+          isRequired: true
+          width: 1/2
+          type: TextFormControl
+        - name: lastName
+          label: Last Name
+          hideLabel: true
+          placeholder: Last Name
+          isRequired: false
+          width: 1/2
+          type: TextFormControl
+        - name: email
+          label: Email
+          hideLabel: true
+          placeholder: Email
+          isRequired: true
+          width: full
+          type: EmailFormControl
+        - name: website
+          label: Website
+          hideLabel: true
+          placeholder: Your Website URL
+          isRequired: true
+          width: full
+          type: TextFormControl
+        - name: message
+          label: Message
+          hideLabel: true
+          placeholder: Tell me about your current SEO challenges
+          isRequired: true
+          width: full
+          type: TextareaFormControl
+      submitLabel: "Schedule Audit Consultation \U0001F680"
+      styles:
+        self:
+          textAlign: center
+    text: >
+      Ready to discover what's holding your website back? Let's uncover your path to search dominance.
+
+
+      **In our consultation, we'll discuss:**
+
+      - Your current website performance and challenges
+      - Competitive landscape in your market
+      - Specific audit focus areas for your business
+      - Timeline and next steps for optimization
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-4
+          - mr-4
+        padding:
+          - pt-24
+          - pb-24
+          - pr-4
+          - pl-4
+        flexDirection: row
+        textAlign: left
+metaTitle: Website Audits - Uncover Your Path to Search Dominance | Scale With Search
+metaDescription: Comprehensive website audits that reveal hidden gaps holding you back. Technical SEO analysis, local competition tracking, and actionable insights for search dominance.
+---
