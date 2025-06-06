@@ -3,16 +3,15 @@ type: PostLayout
 title: "A quick update…"
 colors: colors-a
 date: '2024-04-25'
-excerpt: >-
-  date:: [[2020-03-27]]......
+excerpt: "Thoughts and insights from 2020-03-27"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "A quick update…"
-metaDescription: "date:: [[2020-03-27]]..."
+metaDescription: "Thoughts and insights from 2020-03-27"
 ---
-date:: [[2020-03-27]]
+date:: 
 tags:: #👁
 
 **

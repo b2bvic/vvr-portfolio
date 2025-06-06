@@ -3,16 +3,15 @@ type: PostLayout
 title: "Stick to It"
 colors: colors-a
 date: '2023-05-06'
-excerpt: >-
-  date:: [[2020-08-09]]......
+excerpt: "Thoughts and insights from 2020-08-09"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Stick to It"
-metaDescription: "date:: [[2020-08-09]]..."
+metaDescription: "Thoughts and insights from 2020-08-09"
 ---
-date:: [[2020-08-09]]
+date:: 
 tags:: #👁
 
 Whaddup motherfuckers,

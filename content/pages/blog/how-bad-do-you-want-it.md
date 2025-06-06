@@ -3,16 +3,15 @@ type: PostLayout
 title: "How bad do you want it"
 colors: colors-a
 date: '2023-12-20'
-excerpt: >-
-  date:: [[2018-08-08]]......
+excerpt: "Thoughts and insights from 2018-08-08"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "How bad do you want it"
-metaDescription: "date:: [[2018-08-08]]..."
+metaDescription: "Thoughts and insights from 2018-08-08"
 ---
-date:: [[2018-08-08]]
+date:: 
 tags:: #👁
 
 **
@@ -135,6 +134,5 @@ Thank you for reading.
 Until tomorrow,
 
 — Victor Valentine Romo
-
 
 **

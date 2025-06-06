@@ -3,16 +3,15 @@ type: PostLayout
 title: "Personality vs Individuality"
 colors: colors-a
 date: '2023-09-28'
-excerpt: >-
-  date:: [[2020-01-06]]......
+excerpt: "Thoughts and insights from 2020-01-06"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Personality vs Individuality"
-metaDescription: "date:: [[2020-01-06]]..."
+metaDescription: "Thoughts and insights from 2020-01-06"
 ---
-date:: [[2020-01-06]]
+date:: 
 tags:: #👁
 
 Personality vs. Individuality:

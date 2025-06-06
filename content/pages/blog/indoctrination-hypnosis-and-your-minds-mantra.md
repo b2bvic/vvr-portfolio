@@ -3,16 +3,15 @@ type: PostLayout
 title: "Indoctrination, Hypnosis, and your Mind's Mantra"
 colors: colors-a
 date: '2023-08-19'
-excerpt: >-
-  date:: [[2020-02-19]]......
+excerpt: "Thoughts and insights from 2020-02-19"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Indoctrination, Hypnosis, and your Mind's Mantra"
-metaDescription: "date:: [[2020-02-19]]..."
+metaDescription: "Thoughts and insights from 2020-02-19"
 ---
-date:: [[2020-02-19]]
+date:: 
 tags:: #👁
 
 ## Self-Induced Hypnosis.

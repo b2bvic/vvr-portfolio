@@ -3,16 +3,15 @@ type: PostLayout
 title: "What do the seers see"
 colors: colors-a
 date: '2023-10-20'
-excerpt: >-
-  date:: [[2020-08-20]]......
+excerpt: "Thoughts and insights from 2020-08-20"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "What do the seers see"
-metaDescription: "date:: [[2020-08-20]]..."
+metaDescription: "Thoughts and insights from 2020-08-20"
 ---
-date:: [[2020-08-20]]
+date:: 
 tags:: #👁
 
 I’ve been running with this idea in opposition to ‘world domination’

@@ -3,16 +3,15 @@ type: PostLayout
 title: "Creating Your Mastery"
 colors: colors-a
 date: '2023-09-09'
-excerpt: >-
-  date:: [[2019-08-31]]......
+excerpt: "Thoughts and insights from 2019-08-31"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Creating Your Mastery"
-metaDescription: "date:: [[2019-08-31]]..."
+metaDescription: "Thoughts and insights from 2019-08-31"
 ---
-date:: [[2019-08-31]]
+date:: 
 tags:: #👁
 
 **
@@ -119,6 +118,5 @@ We’re hungry.
 We’re creative as hell.
 
 And we’re ready to work with you.
-
 
 **

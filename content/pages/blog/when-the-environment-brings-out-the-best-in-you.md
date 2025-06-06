@@ -3,16 +3,15 @@ type: PostLayout
 title: "When The Environment Brings Out The Best In You"
 colors: colors-a
 date: '2023-04-26'
-excerpt: >-
-  date:: [[2019-11-26]]......
+excerpt: "Thoughts and insights from 2019-11-26"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "When The Environment Brings Out The Best In You"
-metaDescription: "date:: [[2019-11-26]]..."
+metaDescription: "Thoughts and insights from 2019-11-26"
 ---
-date:: [[2019-11-26]]
+date:: 
 tags:: #👁
 
 Musings On Travel & Self-Optimization

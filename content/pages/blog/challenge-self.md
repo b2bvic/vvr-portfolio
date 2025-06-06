@@ -3,16 +3,15 @@ type: PostLayout
 title: "Challenge & Self"
 colors: colors-a
 date: '2023-04-02'
-excerpt: >-
-  date:: [[2020-08-04]]......
+excerpt: "Thoughts and insights from 2020-08-04"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Challenge & Self"
-metaDescription: "date:: [[2020-08-04]]..."
+metaDescription: "Thoughts and insights from 2020-08-04"
 ---
-date:: [[2020-08-04]]
+date:: 
 tags:: #👁
 
 **

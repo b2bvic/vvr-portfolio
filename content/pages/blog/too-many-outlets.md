@@ -3,16 +3,15 @@ type: PostLayout
 title: "Too Many Outlets"
 colors: colors-a
 date: '2023-02-10'
-excerpt: >-
-  date:: [[2018-08-09]]......
+excerpt: "Thoughts and insights from 2018-08-09"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Too Many Outlets"
-metaDescription: "date:: [[2018-08-09]]..."
+metaDescription: "Thoughts and insights from 2018-08-09"
 ---
-date:: [[2018-08-09]]
+date:: 
 tags: #👁
 
 **
@@ -125,6 +124,5 @@ Begin, be-G-in.
 Until tomorrow,
 
 — Victor Valentine Romo
-
 
 **

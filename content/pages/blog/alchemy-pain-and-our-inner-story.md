@@ -3,16 +3,15 @@ type: PostLayout
 title: "Alchemy, Pain, and our Inner-Story"
 colors: colors-a
 date: '2024-02-29'
-excerpt: >-
-  date:: [[2019-08-21]]......
+excerpt: "Thoughts and insights from 2019-08-21"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Alchemy, Pain, and our Inner-Story"
-metaDescription: "date:: [[2019-08-21]]..."
+metaDescription: "Thoughts and insights from 2019-08-21"
 ---
-date:: [[2019-08-21]]
+date:: 
 tags:: #👁
 
 **
@@ -85,7 +84,6 @@ I needed that redemption.
 On some basic level: I held blame for the consequences of those actions.
 
 The largest of all, being the suicide of my best friend.
-
 
 My breathing would not come into control, so I laid back, giving myself a hug as I bathed in the hot sunlight.
 

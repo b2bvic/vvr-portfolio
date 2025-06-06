@@ -3,16 +3,15 @@ type: PostLayout
 title: "Perfect Your Process"
 colors: colors-a
 date: '2023-11-27'
-excerpt: >-
-  date: [[2022-08-18]]......
+excerpt: "Thoughts and insights from 2022-08-18"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Perfect Your Process"
-metaDescription: "date: [[2022-08-18]]..."
+metaDescription: "Thoughts and insights from 2022-08-18"
 ---
-date: [[2022-08-18]]
+date: 
 tags: #👁
 
 **
@@ -34,7 +33,6 @@ I have two case studies:
 
 -   Cobra - Manufacturing Company
 
-
 -   I created their entire Marketing Department
 
 -   Systematized every procedure, method
@@ -43,9 +41,7 @@ I have two case studies:
 
 -   They are still using my methods to this day
 
-
 -   The Way World Outreach - Non-profit Megachurch
-
 
 -   Created Livestream Director Position
 

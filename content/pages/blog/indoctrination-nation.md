@@ -3,16 +3,15 @@ type: PostLayout
 title: "Indoctrination, Nation"
 colors: colors-a
 date: '2023-04-25'
-excerpt: >-
-  date:: [[2020-02-19]]......
+excerpt: "Thoughts and insights from 2020-02-19"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Indoctrination, Nation"
-metaDescription: "date:: [[2020-02-19]]..."
+metaDescription: "Thoughts and insights from 2020-02-19"
 ---
-date:: [[2020-02-19]]
+date:: 
 tags:: #👁
 
 **

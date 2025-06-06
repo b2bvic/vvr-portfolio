@@ -3,16 +3,15 @@ type: PostLayout
 title: "Developing an 'Operating' System...."
 colors: colors-a
 date: '2023-10-02'
-excerpt: >-
-  date:: [[2020-08-17]]......
+excerpt: "Thoughts and insights from 2020-08-17"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Developing an 'Operating' System...."
-metaDescription: "date:: [[2020-08-17]]..."
+metaDescription: "Thoughts and insights from 2020-08-17"
 ---
-date:: [[2020-08-17]]
+date:: 
 tags:: #👁
 
 I’ve spent the last few weeks learning a whole lot about systems. And what comes as a surprise to me is that it’s the next evolutionary step in the profession (or career) I've chosen for my life. 

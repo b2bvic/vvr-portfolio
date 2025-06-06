@@ -3,16 +3,15 @@ type: PostLayout
 title: "The Story of V"
 colors: colors-a
 date: '2023-01-23'
-excerpt: >-
-  date:: [[2019-12-02]]......
+excerpt: "Thoughts and insights from 2019-12-02"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "The Story of V"
-metaDescription: "date:: [[2019-12-02]]..."
+metaDescription: "Thoughts and insights from 2019-12-02"
 ---
-date:: [[2019-12-02]]
+date:: 
 tags:: #👁
 
 I know, it's a different format now, I got tired of looking at the other one and I don't care enough to design something else so I'm just writing.
@@ -40,7 +39,6 @@ So, to put this all in reference, by the age of 7, I was:
 -   Was a Public Speaker
 
 -   Adjusted to being On-Camera
-
 
 You can sort of see how these skills would come into play later, but let's continue.
 
@@ -124,7 +122,6 @@ So, to recap:
 
 12.  Professional Studio Feature (20)
 
-
 Most of these skills happened because of the one previous to it. They’re all sort of circling the same industry. 
 
 It goes further as I get older.
@@ -165,7 +162,6 @@ Let’s see if I can rapid fire the next few years and spare a few details:
 
 -   25, Content / Copy Specialist, Freelance Marketing
 
-
 Most people told me that I’d never get a job writing for websites, [then I started doing that](https://retronuke.com/author/victor-romo/), then they told me I would never get a job doing social media, [then I started doing that](https://twitter.com/cobracarbide?lang=en), not many people understood why I worked for a church, but upped their content / media production to gain them 10,000+ subscribers within a few months, then people were skeptical that I had actually received a job offer because of people I know from twitter. 
 
 Fact of the matter is, I’m skilled at being talented, and talented with my application of skill.
@@ -196,7 +192,6 @@ Fact of the matter is, I’m skilled at being talented, and talented with my app
 
 -   Digital Advertisements
 
-
 That’s really just scratching the surface. But I hope you understand the scope at which I operate, and why it’s been such a challenge for me to ‘focus up’ on one specific niche.
 
 Fact of the matter is, I don’t have a niche.
@@ -218,6 +213,5 @@ Thank you for reading,
 Your friend,
 
 Victor V
-
 
 **

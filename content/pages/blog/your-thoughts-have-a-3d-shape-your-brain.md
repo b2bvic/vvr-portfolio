@@ -3,16 +3,14 @@ type: PostLayout
 title: "Your Thoughts Have a 3D Shape (Your Brain)"
 colors: colors-a
 date: '2023-05-18'
-excerpt: >-
-  [[2023-03-01]]......
+excerpt: "What if you could see the structure of your thoughts built by your internet habits?"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Your Thoughts Have a 3D Shape (Your Brain)"
-metaDescription: "[[2023-03-01]]..."
+metaDescription: "What if you could see the structure of your thoughts built by your internet habits?"
 ---
-[[2023-03-01]]
 What if you could see the structure of your thoughts built by your internet habits?
 
 Would you believe that it's the relationship of your favorite activities online to build and built by specific thought patterns and behaviors?
@@ -67,8 +65,6 @@ Here's why, and there are several compelling reasons:
 3. Accepts file structures on your computer
 4. Does not use the cloud (unless you want to sync it between devices)
 5. Utilizes backlinks (a skill for SEO and a visual graph builder)
-
-![[Screen Shot 2023-03-02 at 10.01.51 PM.png]]
 
 This is the most current version of my second brain.
 

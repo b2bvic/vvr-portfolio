@@ -3,18 +3,16 @@ type: PostLayout
 title: "Consistency is key"
 colors: colors-a
 date: '2023-08-01'
-excerpt: >-
-  date:: [[2018-12-13]]......
+excerpt: "Thoughts and insights from 2018-12-13"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Consistency is key"
-metaDescription: "date:: [[2018-12-13]]..."
+metaDescription: "Thoughts and insights from 2018-12-13"
 ---
-date:: [[2018-12-13]]
+date:: 
 tags: #👁
-
 
 We hear these words a lot on twitter.
 

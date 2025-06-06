@@ -3,16 +3,15 @@ type: PostLayout
 title: "Character or Charicature"
 colors: colors-a
 date: '2023-05-11'
-excerpt: >-
-  date:: [[2019-09-01]]......
+excerpt: "date::  tags:: #👁 ** There comes a certain point when a person has to realize the caricature of character they’ve made of themselves is too far removed to continue."
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Character or Charicature"
-metaDescription: "date:: [[2019-09-01]]..."
+metaDescription: "date::  tags:: #👁 ** There comes a certain point when a person has to realize the caricature of character they’ve made of themselves is too far removed to continue."
 ---
-date:: [[2019-09-01]]
+date:: 
 tags:: #👁
 **
 There comes a certain point when a person has to realize the caricature of character they’ve made of themselves is too far removed to continue.

@@ -3,16 +3,15 @@ type: PostLayout
 title: "My (Ex)periences"
 colors: colors-a
 date: '2024-02-10'
-excerpt: >-
-  date:: [[2020-01-09]]......
+excerpt: "Thoughts and insights from 2020-01-09"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "My (Ex)periences"
-metaDescription: "date:: [[2020-01-09]]..."
+metaDescription: "Thoughts and insights from 2020-01-09"
 ---
-date:: [[2020-01-09]]
+date:: 
 tags:: #👁
 
 My (Ex)periences

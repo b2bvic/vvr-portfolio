@@ -3,16 +3,15 @@ type: PostLayout
 title: "Vision Bound - Aries"
 colors: colors-a
 date: '2023-02-15'
-excerpt: >-
-  date:: [[2018-07-23]]......
+excerpt: "Thoughts and insights from 2018-07-23"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Vision Bound - Aries"
-metaDescription: "date:: [[2018-07-23]]..."
+metaDescription: "Thoughts and insights from 2018-07-23"
 ---
-date:: [[2018-07-23]]
+date:: 
 tags:: #👁
 
 **

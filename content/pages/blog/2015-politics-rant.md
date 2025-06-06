@@ -3,16 +3,15 @@ type: PostLayout
 title: "2015 Politics Rant"
 colors: colors-a
 date: '2023-06-02'
-excerpt: >-
-  date:: [[2018-10-15]]......
+excerpt: "Thoughts and insights from 2018-10-15"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "2015 Politics Rant"
-metaDescription: "date:: [[2018-10-15]]..."
+metaDescription: "Thoughts and insights from 2018-10-15"
 ---
-date:: [[2018-10-15]]
+date:: 
 
 **
 You ever find a rant from your younger self that is so good you have to respond?

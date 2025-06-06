@@ -3,16 +3,15 @@ type: PostLayout
 title: "Help Wanted"
 colors: colors-a
 date: '2023-02-11'
-excerpt: >-
-  date:: [[2019-12-03]]......
+excerpt: "Thoughts and insights from 2019-12-03"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Help Wanted"
-metaDescription: "date:: [[2019-12-03]]..."
+metaDescription: "Thoughts and insights from 2019-12-03"
 ---
-date:: [[2019-12-03]]
+date:: 
 tag:: #👁
 
 **
@@ -105,6 +104,5 @@ But it's actually one game.
 Like most concepts in this reality.
 
 It's both and neither, always sometimes.
-
 
 **

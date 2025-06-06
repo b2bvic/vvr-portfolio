@@ -3,18 +3,16 @@ type: PostLayout
 title: "Take Your I Out"
 colors: colors-a
 date: '2024-02-29'
-excerpt: >-
-  date: [[2020-08-27]]......
+excerpt: "Thoughts and insights from 2020-08-27"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Take Your I Out"
-metaDescription: "date: [[2020-08-27]]..."
+metaDescription: "Thoughts and insights from 2020-08-27"
 ---
-date: [[2020-08-27]]
+date: 
 tags:: #👁
-
 
 Last night I had the opportunity to speak with people much smarter than me during a dinner party.
 
@@ -85,6 +83,5 @@ To Perfect Progress, 
 — Victor Valentine
 
 [P.S. - My systems work for individuals and companies alike.](https://www.valentine.media/meet)
-
 
 **

@@ -3,16 +3,15 @@ type: PostLayout
 title: "Facing Your Mirrors"
 colors: colors-a
 date: '2023-04-24'
-excerpt: >-
-  date:: [[2018-07-06]]......
+excerpt: "Thoughts and insights from 2018-07-06"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Facing Your Mirrors"
-metaDescription: "date:: [[2018-07-06]]..."
+metaDescription: "Thoughts and insights from 2018-07-06"
 ---
-date:: [[2018-07-06]]
+date:: 
 tags:: #👁
 
 **Reflect or Shun
@@ -38,7 +37,6 @@ About 20 minutes in, I start to notice the first affects, a noticeable change in
 Another 20 minutes go by, and we’ve made it to the first ‘peak’, the lowest waterfall glistening in the bright sunlight. Laughter erupting off the rocks as people swam in the watering hole.
 
 Ciara and I take a seat on an adjacent path, in the dirt.
-
 
 Once I start to feel the shrooms kick in I plant myself and usually don’t move much.
 

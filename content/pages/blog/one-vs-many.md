@@ -3,16 +3,15 @@ type: PostLayout
 title: "One vs. Many"
 colors: colors-a
 date: '2023-05-16'
-excerpt: >-
-  date:: [[2018-07-07]]......
+excerpt: "Thoughts and insights from 2018-07-07"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "One vs. Many"
-metaDescription: "date:: [[2018-07-07]]..."
+metaDescription: "Thoughts and insights from 2018-07-07"
 ---
-date:: [[2018-07-07]]
+date:: 
 tags:: #👁
 
 Hello,

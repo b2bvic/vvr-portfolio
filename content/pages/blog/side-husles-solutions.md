@@ -3,16 +3,15 @@ type: PostLayout
 title: "Side-Husles & Solutions"
 colors: colors-a
 date: '2023-05-02'
-excerpt: >-
-  date:: [[2019-09-03]]......
+excerpt: "Thoughts and insights from 2019-09-03"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Side-Husles & Solutions"
-metaDescription: "date:: [[2019-09-03]]..."
+metaDescription: "Thoughts and insights from 2019-09-03"
 ---
-date:: [[2019-09-03]]
+date:: 
 tags:: #👁
 
 I once had a conversation with my sister.

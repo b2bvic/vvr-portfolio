@@ -3,16 +3,15 @@ type: PostLayout
 title: "My Path is Not Yours"
 colors: colors-a
 date: '2023-03-26'
-excerpt: >-
-  date:: [[2020-02-19]]......
+excerpt: "Thoughts and insights from 2020-02-19"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "My Path is Not Yours"
-metaDescription: "date:: [[2020-02-19]]..."
+metaDescription: "Thoughts and insights from 2020-02-19"
 ---
-date:: [[2020-02-19]]
+date:: 
 tags:: #👁
 
 Hello and welcome to Thor’s Day,

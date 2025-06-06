@@ -3,16 +3,15 @@ type: PostLayout
 title: "Reflection of Your Source"
 colors: colors-a
 date: '2023-10-10'
-excerpt: >-
-  date:: [[2021-03-10]]......
+excerpt: "Thoughts and insights from 2021-03-10"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Reflection of Your Source"
-metaDescription: "date:: [[2021-03-10]]..."
+metaDescription: "Thoughts and insights from 2021-03-10"
 ---
-date:: [[2021-03-10]]
+date:: 
 tags:: #👁
 
 What’s up.

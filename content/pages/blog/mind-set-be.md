@@ -3,16 +3,15 @@ type: PostLayout
 title: "Mind, Set, Be"
 colors: colors-a
 date: '2023-06-28'
-excerpt: >-
-  date:: [[2018-07-06]]......
+excerpt: "Thoughts and insights from 2018-07-06"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Mind, Set, Be"
-metaDescription: "date:: [[2018-07-06]]..."
+metaDescription: "Thoughts and insights from 2018-07-06"
 ---
-date:: [[2018-07-06]]
+date:: 
 tags:: #👁
 
 Last night, I wrote about an adventure in the woods.

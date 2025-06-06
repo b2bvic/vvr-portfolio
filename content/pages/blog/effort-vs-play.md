@@ -3,16 +3,15 @@ type: PostLayout
 title: "Effort vs. Play"
 colors: colors-a
 date: '2023-02-23'
-excerpt: >-
-  date:: [[2018-07-11]]......
+excerpt: "Thoughts and insights from 2018-07-11"
 featuredImage:
   type: ImageBlock
   url: /images/blog-placeholder.jpg
   altText: Personal insights and reflections
 metaTitle: "Effort vs. Play"
-metaDescription: "date:: [[2018-07-11]]..."
+metaDescription: "Thoughts and insights from 2018-07-11"
 ---
-date:: [[2018-07-11]]
+date:: 
 tags:: #👁
 
 **
