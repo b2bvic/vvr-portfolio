@@ -106,9 +106,9 @@ sections:
         label: See all posts
         url: /blog
     posts:
-      - content/pages/blog/bread-is-older-than-agriculture.md
-      - content/pages/blog/your-goals-as-served-growth.md
-      - content/pages/blog/the-one-secret-to-the-best-systems.md
+      - content/pages/blog/building-sops-for-seo-systematize-success-sustainable-growth.md
+      - content/pages/blog/website-migrations-systematic-approach-prevents-traffic-loss.md
+      - content/pages/blog/technical-seo-audit-framework-350k-case-study.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
