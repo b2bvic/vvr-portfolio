@@ -106,9 +106,9 @@ sections:
         label: See all posts
         url: /blog
     posts:
-      - content/pages/blog/architecting-for-scale-nextjs-projects.md
-      - content/pages/blog/autodidact-advantage-integrating-disparate-skills.md
-      - content/pages/blog/technical-seo-audit-framework-350k-case-study.md
+      - content/pages/blog/bread-is-older-than-agriculture.md
+      - content/pages/blog/your-goals-as-served-growth.md
+      - content/pages/blog/the-one-secret-to-the-best-systems.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
