@@ -1,14 +1,31 @@
 [build]
-  publish = ".next"
-  command = "npm run build"
+  publish = "."
 
-[context.production]
-  command = "npm run build"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
 
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# SPA fallback
 [[redirects]]
-  from = "/about"
-  to = "/about-me"
-  status = 301
+  from = "/*"
+  to = "/index.html"
+  status = 200
