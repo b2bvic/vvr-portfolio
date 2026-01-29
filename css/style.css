@@ -2331,6 +2331,7 @@
 
     .timeline-entry {
       padding: var(--space-6);
+      margin-bottom: var(--space-6);
     }
 
     /* Projects */
@@ -2340,7 +2341,12 @@
 
     /* Section labels + headings */
     .section-heading {
-      margin-bottom: var(--space-8);
+      margin-bottom: var(--space-6);
+    }
+
+    /* Contact footer tighter */
+    #contact {
+      padding-block: var(--space-16);
     }
 
     /* Axioms */
@@ -2360,7 +2366,7 @@
     }
 
     section {
-      padding-block: var(--space-12);
+      padding-block: var(--space-8);
     }
 
     /* Hero tightened */
@@ -2441,9 +2447,22 @@
     }
 
     /* Skills tighter */
-    .skill-info {
-      flex-direction: column;
-      gap: var(--space-1);
+    .skill-bar {
+      margin-bottom: var(--space-3);
+    }
+
+    .section-heading {
+      margin-bottom: var(--space-5);
+    }
+
+    /* Timeline entries tighter */
+    .timeline-entry {
+      margin-bottom: var(--space-4);
+    }
+
+    /* Contact footer compact */
+    #contact {
+      padding-block: var(--space-12);
     }
 
     /* Nav */
@@ -2466,6 +2485,14 @@
 
     .industry-body {
       padding: var(--space-4);
+    }
+
+    .industry-grid {
+      gap: var(--space-4);
+    }
+
+    .tech-grid {
+      gap: var(--space-4);
     }
 
     /* Project header stack */
