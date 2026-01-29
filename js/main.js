@@ -410,21 +410,23 @@ function initSmoothScroll() {
       const href = link.getAttribute('href');
       if (!href || href === '#') return;
 
-      e.preventDefault();
+      // Only intercept same-page anchor links
       const target = document.querySelector(href);
-      if (target) {
-        // Close mobile nav if open
-        const navLinks = document.querySelector('.nav-links');
-        const navToggle = document.querySelector('.nav-toggle');
+      if (!target) return;
 
-        if (navLinks) navLinks.classList.remove('active');
-        if (navToggle) {
-          navToggle.classList.remove('active');
-          navToggle.setAttribute('aria-expanded', 'false');
-        }
+      e.preventDefault();
 
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // Close mobile nav if open
+      const navLinks = document.querySelector('.nav-links');
+      const navToggle = document.querySelector('.nav-toggle');
+
+      if (navLinks) navLinks.classList.remove('active');
+      if (navToggle) {
+        navToggle.classList.remove('active');
+        navToggle.setAttribute('aria-expanded', 'false');
       }
+
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
 }
@@ -457,6 +459,7 @@ function initNavigation() {
   const hero = document.getElementById('hero');
   const navToggle = document.querySelector('.nav-toggle');
   const navLinksEl = document.querySelector('.nav-links');
+  const isHomePage = !!hero;
 
   // Scroll-based nav background
   if (nav && hero) {
@@ -471,29 +474,34 @@ function initNavigation() {
     }, { threshold: 0.1 });
 
     navObserver.observe(hero);
+  } else if (nav) {
+    // Sub-pages always show scrolled nav (no hero)
+    nav.classList.add('nav-scrolled');
   }
 
-  // Active section highlighting
-  const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
+  // Active section highlighting — only on home page
+  if (isHomePage) {
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
 
-  if (sections.length > 0 && navLinks.length > 0) {
-    const sectionObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const id = entry.target.getAttribute('id');
-          navLinks.forEach(link => {
-            const isActive = link.getAttribute('href') === `#${id}`;
-            link.classList.toggle('active', isActive);
-          });
-        }
+    if (sections.length > 0 && navLinks.length > 0) {
+      const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            navLinks.forEach(link => {
+              const isActive = link.getAttribute('href') === `#${id}`;
+              link.classList.toggle('active', isActive);
+            });
+          }
+        });
+      }, {
+        threshold: 0.3,
+        rootMargin: '-100px 0px -50% 0px'
       });
-    }, {
-      threshold: 0.3,
-      rootMargin: '-100px 0px -50% 0px'
-    });
 
-    sections.forEach(section => sectionObserver.observe(section));
+      sections.forEach(section => sectionObserver.observe(section));
+    }
   }
 
   // Mobile hamburger toggle

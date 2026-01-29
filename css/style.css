@@ -1950,6 +1950,205 @@
     font-style: italic;
   }
 
+  /* ── Page Headers (sub-pages) ── */
+  .page-header {
+    padding-top: calc(var(--space-32) + var(--space-8));
+    padding-bottom: var(--space-16);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .page-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 500px;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  .page-header--emerald::before {
+    background: radial-gradient(ellipse, var(--emerald-glow) 0%, transparent 60%);
+  }
+
+  .page-header--cyan::before {
+    background: radial-gradient(ellipse, var(--cyan-glow) 0%, transparent 50%),
+                radial-gradient(ellipse at 30% 40%, var(--amber-glow) 0%, transparent 60%);
+  }
+
+  .page-header--violet::before {
+    background: radial-gradient(ellipse, var(--emerald-glow) 0%, transparent 50%),
+                radial-gradient(ellipse at 70% 40%, var(--violet-glow) 0%, transparent 60%);
+  }
+
+  .page-header-label {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--cyan);
+    margin-bottom: var(--space-4);
+    text-shadow: 0 0 20px var(--cyan-deep);
+  }
+
+  .page-header-title {
+    font-size: var(--text-4xl);
+    margin-bottom: var(--space-4);
+    background: linear-gradient(135deg, var(--text) 0%, var(--text-secondary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .page-header-subtitle {
+    font-size: var(--text-lg);
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* ── Explore Teaser Cards (home) ── */
+  .explore-section {
+    position: relative;
+  }
+
+  .page-teaser-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+  }
+
+  .page-teaser {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-8);
+    background: var(--surface);
+    border: 1px solid var(--edge);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color var(--duration-base) var(--ease-out),
+                box-shadow var(--duration-slow) var(--ease-out),
+                transform var(--duration-base) var(--ease-out);
+  }
+
+  .page-teaser:hover {
+    border-color: color-mix(in oklch, var(--cyan) 50%, var(--edge));
+    box-shadow: 0 0 35px var(--cyan-deep), 0 8px 32px rgba(0, 0, 0, 0.25);
+    transform: translateY(-4px);
+    color: inherit;
+  }
+
+  .page-teaser-label {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--cyan);
+    margin-bottom: var(--space-3);
+    text-shadow: 0 0 15px var(--cyan-deep);
+  }
+
+  .page-teaser-title {
+    font-family: var(--font-heading);
+    font-size: var(--text-2xl);
+    color: var(--text);
+    margin-bottom: var(--space-3);
+  }
+
+  .page-teaser-desc {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin-bottom: var(--space-6);
+    flex: 1;
+  }
+
+  .page-teaser-arrow {
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    color: var(--cyan);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    transition: gap var(--duration-base) var(--ease-out);
+  }
+
+  .page-teaser:hover .page-teaser-arrow {
+    gap: var(--space-4);
+  }
+
+  /* ── Cross-Links (sub-pages) ── */
+  .cross-links {
+    padding-block: var(--space-16);
+    border-top: 1px solid var(--edge);
+  }
+
+  .cross-links .container {
+    text-align: center;
+  }
+
+  .cross-links-heading {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: var(--space-6);
+  }
+
+  .cross-links-grid {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-6);
+    flex-wrap: wrap;
+  }
+
+  .cross-link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-4) var(--space-6);
+    background: var(--surface);
+    border: 1px solid var(--edge);
+    border-radius: var(--radius-lg);
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: var(--text-sm);
+    font-weight: 500;
+    transition: border-color var(--duration-base) var(--ease-out),
+                box-shadow var(--duration-base) var(--ease-out),
+                color var(--duration-fast) var(--ease-out),
+                transform var(--duration-base) var(--ease-out);
+  }
+
+  .cross-link:hover {
+    border-color: var(--cyan);
+    box-shadow: 0 0 20px var(--cyan-deep);
+    color: var(--cyan);
+    transform: translateY(-2px);
+  }
+
+  .cross-link-label {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--text-dim);
+  }
+
+  /* ── Nav Active State (multi-page) ── */
+  .nav-links a[aria-current="page"] {
+    color: var(--cyan);
+  }
+
+  .nav-links a[aria-current="page"]::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
   /* Scroll progress indicator */
   #scroll-progress {
     position: fixed;
@@ -2314,6 +2513,30 @@
       gap: var(--space-4);
     }
 
+    /* Page teasers */
+    .page-teaser-grid {
+      grid-template-columns: 1fr;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    /* Page header */
+    .page-header {
+      padding-top: calc(var(--space-24) + var(--space-8));
+      padding-bottom: var(--space-8);
+    }
+
+    /* Cross-links */
+    .cross-links {
+      padding-block: var(--space-8);
+    }
+
+    .cross-links-grid {
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-4);
+    }
+
     /* Timeline */
     .timeline {
       padding-left: var(--space-10);
@@ -2499,6 +2722,26 @@
     .project-header {
       flex-direction: column;
       gap: var(--space-2);
+    }
+
+    /* Page header tighter */
+    .page-header {
+      padding-top: calc(var(--space-20) + var(--space-4));
+      padding-bottom: var(--space-6);
+    }
+
+    .page-header-title {
+      font-size: var(--text-3xl);
+    }
+
+    /* Page teasers tighter */
+    .page-teaser {
+      padding: var(--space-5);
+    }
+
+    .cross-link {
+      padding: var(--space-3) var(--space-4);
+      font-size: var(--text-xs);
     }
   }
 
