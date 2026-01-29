@@ -1256,25 +1256,8 @@
     margin-top: var(--space-3);
     padding: var(--space-4);
     border-top: 1px solid var(--edge);
-    max-height: 200px;
-    overflow-y: auto;
     background: var(--depth);
     border-radius: 0 0 var(--radius-md) var(--radius-md);
-    scrollbar-width: thin;
-    scrollbar-color: var(--edge) transparent;
-  }
-
-  .client-list::-webkit-scrollbar {
-    width: 4px;
-  }
-
-  .client-list::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  .client-list::-webkit-scrollbar-thumb {
-    background: var(--edge);
-    border-radius: var(--radius-full);
   }
 
   .client-list ul {
@@ -1386,7 +1369,7 @@
 
   .timeline-role {
     font-family: var(--font-heading);
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
     color: var(--text);
     margin-bottom: var(--space-1);
   }
@@ -1643,6 +1626,10 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
+    margin-bottom: var(--space-4);
+  }
+
+  .project-card > .badge {
     margin-bottom: var(--space-4);
   }
 
@@ -2351,10 +2338,6 @@
       left: calc(-1 * var(--space-8) + 2px);
       width: 14px;
       height: 14px;
-    }
-
-    .timeline-role {
-      font-size: var(--text-lg);
     }
 
     /* Footer */
