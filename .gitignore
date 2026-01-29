@@ -18,7 +18,8 @@ Thumbs.db
 # Local Netlify folder
 .netlify
 
-# Legacy Next.js (to be removed)
+# Legacy Next.js
+README.md
 /node_modules
 /.next/
 /src
